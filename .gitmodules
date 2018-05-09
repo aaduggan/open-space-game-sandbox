@@ -1,0 +1,3 @@
+[submodule "Assets/Graphics"]
+	path = Assets/Graphics
+	url = https://github.com/Enterlucent/open-space-game-test-art.git
