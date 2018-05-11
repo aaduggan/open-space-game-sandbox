@@ -7,11 +7,11 @@ There are a number of ways that you can directly contribute, even if you are not
 
 We hope that the following document will help you to better understand how to find something to do, how to go about doing that thing and then how to share that with the rest of the community.  We understand that it's very frustrating having a desire to help out but not knowing where to start or, you know where to start, but lack the detailed instructions for doing something you already know you want to do.
 
-When contributing please take note that we subscribe to the [Contributor Covenant Code of Conduct](https://github.com/Enterlucent/open-space-game-sandbox/blob/master/.github/CODE_OF_CONDUCT.md) and we expect all contributors to abide by the code contained.  Please take a moment to review this document if you have not already.
+When contributing please take note that we subscribe to the [Contributor Covenant Code of Conduct](https://github.com/Enterlucent/open-space-game-sandbox/blob/master/.github/CODE_OF_CONDUCT.md) and we expect all contributors to abide by the code contained.  Please take a moment to review this document if you have not already.  If this is your first open source project you may also wish to read GitHub's [How To Contribute](https://opensource.guide/how-to-contribute/) guide.
 
 # Getting Started
 
-In every game studio the tasks are broken down into manageable parts.   Those parts are then worked on by people who have the desire and the talent to get those tasks performed.  These tasks often fall into a number of set roles:
+In every game studio the tasks are broken down into manageable parts.   Those parts are then worked on by people who have the desire and the talent to get those tasks accomplished.  These tasks often fall into a number of specific roles:
 
 * Evangelist - Someone who really loves and understand the work and wants to connect others to it
 * Documenter - Someone who understand the project and wants to help others understand it as well
@@ -22,10 +22,20 @@ In every game studio the tasks are broken down into manageable parts.   Those pa
 * Audio Engineer - Someone who has a great joy for music and wants to spread that joy via a video game
 * Quality Controller - Someone who doesn't mind pushing things to their limit and breaking something (if only to make it better!)
 
-There can be many more roles but these are the ones that we will focus on throughout the rest of this document.   Often people will end up wearing many hats, where an artist might contribute some documentation or provide a crucial bug fix, a programmer might try their hand at some art assets and Documenters might feel the need to evangelize the game.  These roles are in no way meant as a limitation but as a organization tool for work that needs to be performed.
+There can be many more roles but these are the ones that we will focus on throughout the rest of this document.   
+
+Often people will end up wearing many hats, where an artist might contribute some documentation or provide a crucial bug fix, a programmer might try their hand at some art assets and Documenters might feel the need to evangelize the game.  These roles are in no way meant as a limitation but as a organization tool for work that needs to be performed.
 
 # Evangelist
 
+This is by far the most open-ended of the roles as there is no telling who might find our game fun and become impassioned enough to tell others; and we like it like that.  If you feel the need to express your love for open-space-game then we encourage you, however, there are some things we would rather you NOT do:
+
+* **NO LYING** - No providing false or misleading information in regards to open-space-game, it's developers, it's community, those that have contributed, those that will contribute or about anyone or anything that has, currently or will at some future time exist in our shared thee dimensional universe.
+* **Post to Appropriate Places** - Do not post information on forums, chat rooms, message boards, mailing lists or any other form of communication in which ideas are transfered from one being to another that is not appropriate to that venue.
+* **Respect Other's Disinterest** - If a community doesn't wish to know about the awesome that is open-space-game then do not press or in any way make yourself an annoyance to those who you are evangelizing.
+* **NO HYPE** - This is an open source project created by other passionate people who are in no way, shape, or form bound to it in any substantial way other than their own desire to do so (just like you!).   Things will take as long as they take and hype only makes for people getting upset and disappointed (Skyrim Together!!!!!!).
+
+Outside of the above items you should not do, feel free to tell everyone far and wide about the virtues of open-space-game and how it can improve their lives.  Also, let developers know that if they too wish to partake in our community that we would very much appreciate anything they have to offer.  Just like yourself, we are all here because of our desire to make open-space-game great and in the end this project is not about the documents, assets or the logic but is about the people and our shared vision.
 
 
 <!-- # How to Report a Bug -->
