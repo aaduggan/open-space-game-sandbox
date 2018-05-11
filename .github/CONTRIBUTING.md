@@ -1,4 +1,3 @@
-
 # Introduction
 
 Thank you for taking a look at open-space-game.  With the help of potential contributors, like you, we hope to make this one of the best SIM-RTS-RPG-FPS games out there ...  This can seem like a daunting task but I'm guessing that's what brought you here in the first place.
@@ -13,8 +12,8 @@ When contributing please take note that we subscribe to the [Contributor Covenan
 
 In every game studio the tasks are broken down into manageable parts.   Those parts are then worked on by people who have the desire and the talent to get those tasks accomplished.  These tasks often fall into a number of specific roles:
 
-* Evangelist - Someone who really loves and understand the work and wants to connect others to it
-* Documenter - Someone who understand the project and wants to help others understand it as well
+* [Evangelist](#evangelist) - Someone who really loves and understand the work and wants to connect others to it
+* [Documenter](#documenter) - Someone who understand the project and wants to help others understand it as well
 * Game Designer - Someone who has played a wide number of games and understands how to create game mechanics that others will love
 * Game Artist - Someone who has a technical knowledge of how modern video games work but also have been touched by a muse
 * Game Programmer - Someone who understand how to implement the concepts proposed by the Game Designers 
@@ -26,7 +25,7 @@ There can be many more roles but these are the ones that we will focus on throug
 
 Often people will end up wearing many hats, where an artist might contribute some documentation or provide a crucial bug fix, a programmer might try their hand at some art assets and Documenters might feel the need to evangelize the game.  These roles are in no way meant as a limitation but as a organization tool for work that needs to be performed.
 
-# Evangelist
+# Evangelist <a id="evangelist"></a>
 
 This is by far the most open-ended of the roles as there is no telling who might find our game fun and become impassioned enough to tell others; and we like it like that.  If you feel the need to express your love for open-space-game then we encourage you, however, there are some things we would rather you NOT do:
 
@@ -35,8 +34,9 @@ This is by far the most open-ended of the roles as there is no telling who might
 * **Respect Other's Disinterest** - If a community doesn't wish to know about the awesome that is open-space-game then do not press or in any way make yourself an annoyance to those who you are evangelizing.
 * **NO HYPE** - This is an open source project created by other passionate people who are in no way, shape, or form bound to it in any substantial way other than their own desire to do so (just like you!).   Things will take as long as they take and hype only makes for people getting upset and disappointed (Skyrim Together!!!!!!).
 
-Outside of the above items you should not do, feel free to tell everyone far and wide about the virtues of open-space-game and how it can improve their lives.  Also, let developers know that if they too wish to partake in our community that we would very much appreciate anything they have to offer.  Just like yourself, we are all here because of our desire to make open-space-game great and in the end this project is not about the documents, assets or the logic but is about the people and our shared vision.
+Outside of the above items **you should not do**, feel free to tell everyone far and wide about the virtues of open-space-game and how it can improve their lives.  Also, let developers know that if they too wish to partake in our community that we would very much appreciate anything they have to offer.  Just like yourself, we are all here because of our desire to make open-space-game great and in the end this project is not about the documents, assets or the logic but is about the people and our shared vision.
 
+# Documenter <a id="documenter"></a>
 
 <!-- # How to Report a Bug -->
 
@@ -49,5 +49,3 @@ Outside of the above items you should not do, feel free to tell everyone far and
 # Attribution
 
 This CONTRIBUTING document was compiled with the help of [nayafia/contributing-template](https://github.com/nayafia/contributing-template/blob/master/CONTRIBUTING-template.md).  Thank you for **giving us** a place to start!
-
-https://opensource.guide/
