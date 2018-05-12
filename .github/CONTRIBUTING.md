@@ -11,11 +11,11 @@ When contributing please take note that we subscribe to the [Contributor Covenan
 In every game studio the tasks are broken down into manageable parts.   Those parts are then worked on by people who have the desire and the talent to get those tasks accomplished.  These tasks often fall into a number of specific roles:
 
 * [Evangelist](#evangelist) - Someone who really loves and understand the work and wants to connect others to it
+* [Quality Controller](#quality-controller) - Someone who doesn't mind pushing things to their limit and breaking something (if only to make it better!)
 * [Technical Writer](#technical-writer) - Someone who understand the project and wants to help others understand it as well
 * [Game Designer](#game-designer) - Someone who has played a wide number of games and understands how to create game mechanics that others will love
-* [Artist](#artist) - Someone who has a technical knowledge of how modern video games work but also have been touched by a muse be their expertise in animations, images, models, story lines or other creation.
 * [Programmer](#programmer)  - Someone who understand how to implement the concepts proposed by the Game Designers 
-* [Quality Controller](#quality-controller) - Someone who doesn't mind pushing things to their limit and breaking something (if only to make it better!)
+* [Artist](#artist) - Someone who has a technical knowledge of how modern video games work but also have been touched by a muse be their expertise in animations, images, models, story lines or other creation.
 
 There can be many more roles but these are the ones that we will focus on throughout the rest of this document.   
 
@@ -31,6 +31,11 @@ This is by far the most open-ended of the roles as there is no telling who might
 * **NO HYPE** - This is an open source project created by other passionate people who are in no way, shape, or form bound to it in any substantial way other than their own desire to do so (just like you!).   Things will take as long as they take and hype only makes for people getting upset and disappointed (Skyrim Together!!!!!!).
 
 Outside of the above items **you should not do**, feel free to tell everyone far and wide about the virtues of open-space-game and how it can improve their lives.  Also, let developers know that if they too wish to partake in our community that we would very much appreciate anything they have to offer.  Just like yourself, we are all here because of our desire to make open-space-game great and in the end this project is not about the documents, assets or the logic but is about the people and our shared vision.
+
+# Quality Controller <a id="quality-controller"></a> <sup>[^^](#getting-started)</sup>
+
+
+
 
 # Technical Writer <a id="technical-writer"></a> <sup>[^^](#getting-started)</sup>
 Technical Writers are the back-bone of a well organized project.   There is nearly an endless amount of information that needs to be documented so that everyone can be on the same page.  <!-- Add More -->
@@ -57,7 +62,7 @@ Often, these skilled people come after a large part of the functionality of the 
 	* Pull for changes to the base often so you stay in sync
 4. Submit a pull request that includes just your changes.  
 	* Make sure to give it the label of 'documentation' on the pull request.
-	* Maintainers may ask questions or request changes so make sure to check back!
+5. Maintainers may ask questions or request changes so make sure to check back!
 
 ## 3rd-Party Submissions
 As previously mentioned, there are a wide variety of ways someone could help with project documentation.  The type of documentation you might want to provide could very well have nothing to do with any of the more traditional documentation channels, be it a video tutorial on some aspect of game play or a tech article on some element of the development process.   
@@ -91,9 +96,15 @@ When you have the next best feature for the open-space-game project you will fir
    * It is important to keep in mind that all new features, even simple changes, often have wide ranging effect which need to be fully explored.
    * Also remember that not all features can be added into the game (but I'm sure we'll try!) and features need to be released in an orderly way so even if the feature is accepted it may not go in immediately.
 
-# Artist <a id="artist"></a> <sup>[^^](#getting-started)</sup>
 # Programmer <a id="programmer"></a> <sup>[^^](#getting-started)</sup>
-# Quality Controller <a id="quality-controller"></a> <sup>[^^](#getting-started)</sup>
+Programmers are responsible for implementing the features presented by Game Designers and managing the assets created by Artists.  However, without these lowly warriors there wouldn't be much for a video game to do other than proudly and silently present its default screen to the world. That being said 
+
+## How to Find Something TODO
+1. Look on the different issue trackers [Project](https://github.com/Enterlucent/open-space-game/issues?utf8=%E2%9C%93&q=label%3Adocumentation+is%3Aall) and [Studio](https://github.com/Enterlucent/open-space-game-studio/issues?utf8=%E2%9C%93&q=label%3Adocumentation+is%3Aall) Issues
+	* See if there are any issues that are not assigned for which you think you could complete
+
+# Artist <a id="artist"></a> <sup>[^^](#getting-started)</sup>
+The title Artist, in this respect, covers a wide array of potential contributors skill sets. From audio to particle systems to models and textures, there is a near endless need for assets and no lack of need for their refinement and optimization.   What sets a video game artist into a league of their own is the equally wide array of technical knowledge surrounding the implementation of their art.
 
 # Attribution
 This CONTRIBUTING document was compiled with the help of [nayafia/contributing-template](https://github.com/nayafia/contributing-template/blob/master/CONTRIBUTING-template.md).
