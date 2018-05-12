@@ -29,6 +29,7 @@ Often people will end up wearing many hats, where an artist might contribute som
 
 This is by far the most open-ended of the roles as there is no telling who might find our game fun and become impassioned enough to tell others; and we like it like that.  If you feel the need to express your love for open-space-game then we encourage you, however, there are some things we would rather you NOT do:
 
+## Prohibitions
 * **NO LYING** - No providing false or misleading information in regards to open-space-game, it's developers, it's community, those that have contributed, those that will contribute or about anyone or anything that has, currently or will at some future time exist in our shared thee dimensional universe.
 * **Post to Appropriate Places** - Do not post information on forums, chat rooms, message boards, mailing lists or any other form of communication in which ideas are transfered from one being to another that is not appropriate to that venue.
 * **Respect Other's Disinterest** - If a community doesn't wish to know about the awesome that is open-space-game then do not press or in any way make yourself an annoyance to those who you are evangelizing.
@@ -38,13 +39,34 @@ Outside of the above items **you should not do**, feel free to tell everyone far
 
 # Documenter <a id="documenter"></a>
 
-<!-- # How to Report a Bug -->
+Documenters are not just those chimera who not only have a love for the technical but with the a creative and helpful nature (though that's a good place to start!) and instead is anyone who understands the project and wishes to share that knowledge and has a medium for doing so.  
 
-<!-- # How to Submit a Feature Request -->
+Often, these skilled people come after a large part of the functionality of the project is complete but this is where open-source projects often diverge from that norm.   It's very likely that the game, over many iterations will change and become more than what it was before, and this will cause the documentation to change.  If this fact does not dissuade you then please read on!  
 
-<!-- # Code Review Process -->
+## Types of Documentation We Need
+* Code Level Documentation - This should be performed by the Game Programmers but in the event it is missed or is found lacking, we would love people to add to the code clarity.
+* Features and Functions - Documenting how the game works from the most general, "How to Open Open-Space-Game" to the ridiculously explicit "How to Play 12 Copies of Open-Space-Game at Once with Helium Cooled Processors"
+* Public Relations - This is how we present ourselves to the world at large.  This includes the web pages, GitHub pages, any promotional material and press releases.
+* Tutorials - Show others how to do things that they don't yet know how to do.  These could include trade related articles, videos, local pages or anything else where something unclear becomes more so (clear that is).
 
-<!-- # Community -->
+## How to Submit Documentation
+1. Determine if the documentation already exists that you want to create.
+    * Since documentation has the same review standards as logic or assets, one should start by searching the [Issues](https://github.com/Enterlucent/open-space-game-sandbox/issues?utf8=%E2%9C%93&q=label%3Adocumentation+is%3Aall+)
+    * Sometimes things slip through the cracks so if you don't find anything listed in the Issues then you will want to check the [Wiki](https://github.com/Enterlucent/open-space-game-sandbox/wiki) and then [GitHub Pages](https://www.open-space-game.org/)
+    * Finally if you would like to try to speak to a real person you can join the [Discord](https://discord.gg/zk3NZEc) server to see if a moderator or channel member can point you in the right direction.
+2. Fork the repository for the documentation of need
+   	* [Project Documentation](https://github.com/Enterlucent/open-space-game-sandbox/tree/master/docs) - https://github.com/Enterlucent/open-space-game-studio
+   	* [Wiki](https://github.com/Enterlucent/open-space-game-sandbox/wiki) - https://github.com/Enterlucent/open-space-game-studio/wiki
+   	* [GitHub Pages](https://www.open-space-game.org/) - https://github.com/Enterlucent/open-space-game.github.io
+3. Make any changes or additions.
+	* Check for changes to the base often and pull as needed
+4. Submit a pull request that includes just your changes.  
+	* Make sure to give it the label of documentation on the pull request.
+	* Maintainers may ask questions or request changes so make sure to check back!
+
+
+
+
 
 # Attribution
 
