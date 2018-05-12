@@ -4,6 +4,7 @@ about: Create a report to help us improve
 
 ---
 
+<!--- Please add the "bug" label and the "asset", "coding" or "documentation" labels as applicable -->
 <!--- Provide a general summary of the issue in the Title above -->
 
 ## Description

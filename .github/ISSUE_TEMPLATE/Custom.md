@@ -4,7 +4,7 @@ about: Ability to handle support quesitons
 
 ---
 
-<!--- Please make sure to select 'Support Question' --->
+<!--- Please add the "question" label and the "asset", "coding" or "documentation" labels as applicable -->
 <!--- Provide a general summary of the issue in the Title above -->
 
 ## Your Environment

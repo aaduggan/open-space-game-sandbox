@@ -4,6 +4,7 @@ about: Suggest an idea for this project
 
 ---
 
+<!--- Please add the "enhancement" label and the "asset", "coding" or "documentation" labels as applicable -->
 <!--- Provide a general summary of the issue in the Title above -->
 
 ## Detailed Description
