@@ -1,2 +1,2 @@
-# open-space-game-test
-Repo for testing merges and other git specific tasks.
+# open-space-game-sandbox
+A multi-player open source game set in an open universe.
