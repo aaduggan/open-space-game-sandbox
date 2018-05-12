@@ -14,11 +14,9 @@ In every game studio the tasks are broken down into manageable parts.   Those pa
 
 * [Evangelist](#evangelist) - Someone who really loves and understand the work and wants to connect others to it
 * [Documenter](#documenter) - Someone who understand the project and wants to help others understand it as well
-* Game Designer - Someone who has played a wide number of games and understands how to create game mechanics that others will love
-* Game Artist - Someone who has a technical knowledge of how modern video games work but also have been touched by a muse
+* [Game Designer](#game-designer) - Someone who has played a wide number of games and understands how to create game mechanics that others will love
+* Game Artist - Someone who has a technical knowledge of how modern video games work but also have been touched by a muse be their expertise in animations, images, models or other creation.
 * Game Programmer - Someone who understand how to implement the concepts proposed by the Game Designers 
-* Animator - Someone who is responsible for making things appear to move within a game
-* Audio Engineer - Someone who has a great joy for music and wants to spread that joy via a video game
 * Quality Controller - Someone who doesn't mind pushing things to their limit and breaking something (if only to make it better!)
 
 There can be many more roles but these are the ones that we will focus on throughout the rest of this document.   
@@ -63,6 +61,18 @@ Often, these skilled people come after a large part of the functionality of the 
 4. Submit a pull request that includes just your changes.  
 	* Make sure to give it the label of documentation on the pull request.
 	* Maintainers may ask questions or request changes so make sure to check back!
+
+## 3rd-Party Submissions
+
+As previously mentioned, there are a wide variety of ways someone could help with project documentation.  The type of documentation you might want to provide could very well have nothing to do with any of the more traditional documentation channels, be it a video tutorial on some aspect of game play or a tech article on some element of the development process.   
+
+If you have created something that you would like to see linked on our [GitHub Pages](https://www.open-space-game.org/) or [Wiki](https://github.com/Enterlucent/open-space-game-sandbox/wiki):
+* Create a "Feature request" on the [Issues](https://github.com/Enterlucent/open-space-game-sandbox/issues/new?template=Feature_request.md) page.
+* Fill out the applicable areas
+* Add the labels "enhancement" and "documentation"
+* Maintainers may ask questions or request changes so make sure to check back!
+
+# Game Designer <a id="game-designer"></a>
 
 
 
