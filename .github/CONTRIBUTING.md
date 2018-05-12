@@ -1,5 +1,4 @@
 # Introduction
-
 Thank you for taking a look at open-space-game.  With the help of potential contributors, like you, we hope to make this one of the best SIM-RTS-RPG-FPS ... games out there.  This can seem like a daunting task but I'm guessing that's what brought you here in the first place.
 
 There are a number of ways that you can directly contribute, even if you are not a programmer or an artist.  Documents are always needing to be read, re-read and updated as things change with in the project and to correct those pesky grammatical and spelling bugs that seem to creep in.  In addition, tutorials and explanation articles are always welcome, as well as bug related tasks (finding and reporting them, and detailed bug investigations), feature request research and of course we'll take code, art and Unity asset submissions as well.
@@ -9,22 +8,20 @@ We hope that the following document will help you to better understand how to fi
 When contributing please take note that we subscribe to the [Contributor Covenant Code of Conduct](https://github.com/Enterlucent/open-space-game/blob/master/.github/CODE_OF_CONDUCT.md) and we expect all contributors to abide by the code contained.  Please take a moment to review this document if you have not already.  If this is your first open source project you may also wish to read GitHub's [How To Contribute](https://opensource.guide/how-to-contribute/) guide.
 
 # Getting Started
-
 In every game studio the tasks are broken down into manageable parts.   Those parts are then worked on by people who have the desire and the talent to get those tasks accomplished.  These tasks often fall into a number of specific roles:
 
 * [Evangelist](#evangelist) - Someone who really loves and understand the work and wants to connect others to it
-* [Documenter](#documenter) - Someone who understand the project and wants to help others understand it as well
+* [Technical Writer](#technical-writer) - Someone who understand the project and wants to help others understand it as well
 * [Game Designer](#game-designer) - Someone who has played a wide number of games and understands how to create game mechanics that others will love
-* Game Artist - Someone who has a technical knowledge of how modern video games work but also have been touched by a muse be their expertise in animations, images, models or other creation.
-* Game Programmer - Someone who understand how to implement the concepts proposed by the Game Designers 
-* Quality Controller - Someone who doesn't mind pushing things to their limit and breaking something (if only to make it better!)
+* [Artist](#artist) - Someone who has a technical knowledge of how modern video games work but also have been touched by a muse be their expertise in animations, images, models, story lines or other creation.
+* [Programmer](#programmer)  - Someone who understand how to implement the concepts proposed by the Game Designers 
+* [Quality Controller](#quality-controller) - Someone who doesn't mind pushing things to their limit and breaking something (if only to make it better!)
 
 There can be many more roles but these are the ones that we will focus on throughout the rest of this document.   
 
-Often people will end up wearing many hats, where an artist might contribute some documentation or provide a crucial bug fix, a programmer might try their hand at some art assets and Documenters might feel the need to evangelize the game.  These roles are in no way meant as a limitation but as a organization tool for work that needs to be performed.
+Often people will end up wearing many hats, where an artist might contribute some documentation or provide a crucial bug fix, a programmer might try their hand at some art assets and Technical Writers might feel the need to evangelize the game.  These roles are in no way meant as a limitation but as a organization tool for work that needs to be performed.
 
 # Evangelist <a id="evangelist"></a>
-
 This is by far the most open-ended of the roles as there is no telling who might find our game fun and become impassioned enough to tell others; and we like it like that.  If you feel the need to express your love for open-space-game then we encourage you, however, there are some things we would rather you NOT do:
 
 ## Prohibitions
@@ -35,9 +32,8 @@ This is by far the most open-ended of the roles as there is no telling who might
 
 Outside of the above items **you should not do**, feel free to tell everyone far and wide about the virtues of open-space-game and how it can improve their lives.  Also, let developers know that if they too wish to partake in our community that we would very much appreciate anything they have to offer.  Just like yourself, we are all here because of our desire to make open-space-game great and in the end this project is not about the documents, assets or the logic but is about the people and our shared vision.
 
-# Documenter <a id="documenter"></a>
-
-Documenters are not just those chimera who not only have a love for the technical but with the a creative and helpful nature (though that's a good place to start!) and instead is anyone who understands the project and wishes to share that knowledge and has a medium for doing so.  
+# Technical Writer <a id="technical-writer"></a>
+Technical Writers are the back-bone of a well organized project.   There nearly an endless amount of information that needs to be written down so that everyone can be on the same page.  <!-- Add More -->
 
 Often, these skilled people come after a large part of the functionality of the project is complete but this is where open-source projects often diverge from that norm.   It's very likely that the game, over many iterations will change and become more than what it was before, and this will cause the documentation to change.  If this fact does not dissuade you then please read on!  
 
@@ -54,8 +50,8 @@ Often, these skilled people come after a large part of the functionality of the 
     * Finally if you would like to try to speak to a real person you can join the [Discord](https://discord.gg/zk3NZEc) server to see if a moderator or channel member can point you in the right direction.
 2. Fork the repository for the documentation of need
    	* [Project](https://github.com/Enterlucent/open-space-game/tree/master/docs) - https://github.com/Enterlucent/open-space-game
-   	* [Studio](https://github.com/Enterlucent/open-space-game-studio/tree/master/docs) - https://github.com/Enterlucent/open-space-game-studio
    	* [Assets](https://github.com/Enterlucent/open-space-game-assets/tree/master/docs) - https://github.com/Enterlucent/open-space-game-assets
+   	* [Studio](https://github.com/Enterlucent/open-space-game-studio/tree/master/docs) - https://github.com/Enterlucent/open-space-game-studio
    	* [Wiki](https://github.com/Enterlucent/open-space-game/wiki) - https://github.com/Enterlucent/open-space-game/wiki
    	* [GitHub Pages](https://www.open-space-game.org/) - https://github.com/Enterlucent/open-space-game.github.io
 3. Make any changes or additions.
@@ -65,7 +61,6 @@ Often, these skilled people come after a large part of the functionality of the 
 	* Maintainers may ask questions or request changes so make sure to check back!
 
 ## 3rd-Party Submissions
-
 As previously mentioned, there are a wide variety of ways someone could help with project documentation.  The type of documentation you might want to provide could very well have nothing to do with any of the more traditional documentation channels, be it a video tutorial on some aspect of game play or a tech article on some element of the development process.   
 
 If you have created something that you would like to see linked on our [GitHub Pages](https://www.open-space-game.org/) or [Wiki](https://github.com/Enterlucent/open-space-game/wiki):
@@ -75,11 +70,9 @@ If you have created something that you would like to see linked on our [GitHub P
 * Maintainers may ask questions or request changes so make sure to check back!
 
 # Game Designer <a id="game-designer"></a>
-
-
-
-
+# Artist <a id="artist"></a>
+# Programmer <a id="programmer"></a>
+# Quality Controller <a id="quality-controller"></a>
 
 # Attribution
-
 This CONTRIBUTING document was compiled with the help of [nayafia/contributing-template](https://github.com/nayafia/contributing-template/blob/master/CONTRIBUTING-template.md).
