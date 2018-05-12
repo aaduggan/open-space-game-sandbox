@@ -1,12 +1,12 @@
 # Introduction
 
-Thank you for taking a look at open-space-game.  With the help of potential contributors, like you, we hope to make this one of the best SIM-RTS-RPG-FPS games out there ...  This can seem like a daunting task but I'm guessing that's what brought you here in the first place.
+Thank you for taking a look at open-space-game.  With the help of potential contributors, like you, we hope to make this one of the best SIM-RTS-RPG-FPS ... games out there.  This can seem like a daunting task but I'm guessing that's what brought you here in the first place.
 
-There are a number of ways that you can directly contribute, even if you are not a programmer or an artist.  Documents are always needing to be read, re-read and updated as things change with in the project and to correct those pesky grammatical and spelling bugs that seem to creep in.  In addition, tutorials and explanation articles are always welcome, as well as bug related tasks (finding and reporting them, and detailed bug investigations), feature request research and of course we'll take code, art and unity asset submissions as well.
+There are a number of ways that you can directly contribute, even if you are not a programmer or an artist.  Documents are always needing to be read, re-read and updated as things change with in the project and to correct those pesky grammatical and spelling bugs that seem to creep in.  In addition, tutorials and explanation articles are always welcome, as well as bug related tasks (finding and reporting them, and detailed bug investigations), feature request research and of course we'll take code, art and Unity asset submissions as well.
 
 We hope that the following document will help you to better understand how to find something to do, how to go about doing that thing and then how to share that with the rest of the community.  We understand that it's very frustrating having a desire to help out but not knowing where to start or, you know where to start, but lack the detailed instructions for doing something you already know you want to do.
 
-When contributing please take note that we subscribe to the [Contributor Covenant Code of Conduct](https://github.com/Enterlucent/open-space-game-sandbox/blob/master/.github/CODE_OF_CONDUCT.md) and we expect all contributors to abide by the code contained.  Please take a moment to review this document if you have not already.  If this is your first open source project you may also wish to read GitHub's [How To Contribute](https://opensource.guide/how-to-contribute/) guide.
+When contributing please take note that we subscribe to the [Contributor Covenant Code of Conduct](https://github.com/Enterlucent/open-space-game/blob/master/.github/CODE_OF_CONDUCT.md) and we expect all contributors to abide by the code contained.  Please take a moment to review this document if you have not already.  If this is your first open source project you may also wish to read GitHub's [How To Contribute](https://opensource.guide/how-to-contribute/) guide.
 
 # Getting Started
 
@@ -49,25 +49,27 @@ Often, these skilled people come after a large part of the functionality of the 
 
 ## How to Submit Documentation
 1. Determine if the documentation already exists that you want to create.
-    * Since documentation has the same review standards as logic or assets, one should start by searching the [Issues](https://github.com/Enterlucent/open-space-game-sandbox/issues?utf8=%E2%9C%93&q=label%3Adocumentation+is%3Aall+)
-    * Sometimes things slip through the cracks so if you don't find anything listed in the Issues then you will want to check the [Wiki](https://github.com/Enterlucent/open-space-game-sandbox/wiki) and then [GitHub Pages](https://www.open-space-game.org/)
+    * Since documentation has the same review standards as logic or assets, one should start by searching the [Project](https://github.com/Enterlucent/open-space-game/issues?utf8=%E2%9C%93&q=label%3Adocumentation+is%3Aall), [Assets](https://github.com/Enterlucent/open-space-game-assets/issues?utf8=%E2%9C%93&q=label%3Adocumentation+is%3Aall), [Studio](https://github.com/Enterlucent/open-space-game-studio/issues?utf8=%E2%9C%93&q=label%3Adocumentation+is%3Aall), or [GitHub Page](https://github.com/Enterlucent/open-space-game.github.io/issues?utf8=%E2%9C%93&q=label%3Adocumentation+is%3Aall) Issues
+    * Sometimes things slip through the cracks so if you don't find anything listed in the Issues then you will want to check the [Wiki](https://github.com/Enterlucent/open-space-game/wiki) and then [GitHub Pages](https://www.open-space-game.org/) themselves
     * Finally if you would like to try to speak to a real person you can join the [Discord](https://discord.gg/zk3NZEc) server to see if a moderator or channel member can point you in the right direction.
 2. Fork the repository for the documentation of need
-   	* [Project Documentation](https://github.com/Enterlucent/open-space-game-sandbox/tree/master/docs) - https://github.com/Enterlucent/open-space-game-studio
-   	* [Wiki](https://github.com/Enterlucent/open-space-game-sandbox/wiki) - https://github.com/Enterlucent/open-space-game-studio/wiki
+   	* [Project](https://github.com/Enterlucent/open-space-game/tree/master/docs) - https://github.com/Enterlucent/open-space-game
+   	* [Studio](https://github.com/Enterlucent/open-space-game-studio/tree/master/docs) - https://github.com/Enterlucent/open-space-game-studio
+   	* [Assets](https://github.com/Enterlucent/open-space-game-assets/tree/master/docs) - https://github.com/Enterlucent/open-space-game-assets
+   	* [Wiki](https://github.com/Enterlucent/open-space-game/wiki) - https://github.com/Enterlucent/open-space-game/wiki
    	* [GitHub Pages](https://www.open-space-game.org/) - https://github.com/Enterlucent/open-space-game.github.io
 3. Make any changes or additions.
-	* Check for changes to the base often and pull as needed
+	* Pull for changes to the base often so you stay in sync
 4. Submit a pull request that includes just your changes.  
-	* Make sure to give it the label of documentation on the pull request.
+	* Make sure to give it the label of 'documentation' on the pull request.
 	* Maintainers may ask questions or request changes so make sure to check back!
 
 ## 3rd-Party Submissions
 
 As previously mentioned, there are a wide variety of ways someone could help with project documentation.  The type of documentation you might want to provide could very well have nothing to do with any of the more traditional documentation channels, be it a video tutorial on some aspect of game play or a tech article on some element of the development process.   
 
-If you have created something that you would like to see linked on our [GitHub Pages](https://www.open-space-game.org/) or [Wiki](https://github.com/Enterlucent/open-space-game-sandbox/wiki):
-* Create a "Feature request" on the [Issues](https://github.com/Enterlucent/open-space-game-sandbox/issues/new?template=Feature_request.md) page.
+If you have created something that you would like to see linked on our [GitHub Pages](https://www.open-space-game.org/) or [Wiki](https://github.com/Enterlucent/open-space-game/wiki):
+* Create a "Feature request" on the [Issues](https://github.com/Enterlucent/open-space-game/issues/new?template=Feature_request.md) page.
 * Fill out the applicable areas
 * Add the labels "enhancement" and "documentation"
 * Maintainers may ask questions or request changes so make sure to check back!
@@ -80,4 +82,4 @@ If you have created something that you would like to see linked on our [GitHub P
 
 # Attribution
 
-This CONTRIBUTING document was compiled with the help of [nayafia/contributing-template](https://github.com/nayafia/contributing-template/blob/master/CONTRIBUTING-template.md).  Thank you for **giving us** a place to start!
+This CONTRIBUTING document was compiled with the help of [nayafia/contributing-template](https://github.com/nayafia/contributing-template/blob/master/CONTRIBUTING-template.md).
