@@ -1,0 +1,1 @@
+Where external projects being included into open-space-game should go.
