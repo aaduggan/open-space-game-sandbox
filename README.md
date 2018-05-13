@@ -8,7 +8,7 @@ Open-Space-Game is a mix genre game set in an open universe.  The goal of this p
 * [Support Questions](CONTRIBUTING.md#how-to-open-a-support-question) - Check to see if any one else has had the same question.
 
 ## Prerequisites
-1. Download and Install the [Project Version](./ProjectSettings/ProjectVersion.txt) of Unity
+1. Download and Install the [Project Version](./ProjectSettings/ProjectVersion.txt) of [Unity](https://public-cdn.cloud.unity3d.com/hub/prod/UnityHubSetup.exe)
 
 ## Installing
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
