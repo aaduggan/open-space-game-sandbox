@@ -18,7 +18,8 @@ about: Suggest an idea for this project
 ## Possible Implementation
 <!--- Not obligatory, but suggest an idea for implementing addition or change -->
 
-## Your Environment
-<!--- Include as many relevant details about the environment you experienced the bug in -->
-* Version used:
-* Operating System and version (desktop or mobile):
+## Related Issues
+<!--- If this feature requires new or changed game assets then add the asset request issue link here -->
+
+## Target Platform(s)
+<!--- If this feature request is for a specific platform or set of platforms then list them here -->
