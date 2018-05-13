@@ -1,6 +1,6 @@
 # Open-Space-Game
 
-Open-Space-Game is a mix genre game set in an open universe.
+Open-Space-Game is a mix genre game set in an open universe.  The goal of this project is to create a fully immersive game that spans from the surface of planets to the outer reaches of space.
 
 ## Getting Started
 
