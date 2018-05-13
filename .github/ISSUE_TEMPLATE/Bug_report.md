@@ -4,8 +4,9 @@ about: Create a report to help us improve
 
 ---
 
-<!--- Please add the "bug" label and the "asset", "coding" or "documentation" labels as applicable -->
-<!--- Provide a general summary of the issue in the Title above -->
+<!--- Ensure you are in the proper repository for the bug report.-->
+<!--- Please add the "bug" label found to the right -->
+<!--- Provide a general summary of the bug in the Title above -->
 
 ## Description
 <!--- Provide a more detailed introduction to the issue itself, and why you consider it to be a bug -->
@@ -15,9 +16,6 @@ about: Create a report to help us improve
 
 ## Actual Behavior
 <!--- Tell us what happens instead -->
-
-## Possible Fix
-<!--- Not obligatory, but suggest a fix or reason for the bug -->
 
 ## Steps to Reproduce
 <!--- Provide a link to a live example, or an unambiguous set of steps to -->
@@ -30,9 +28,10 @@ about: Create a report to help us improve
 ## Context
 <!--- How has this bug affected you? What were you trying to accomplish? -->
 
+## Possible Fix
+<!--- Not obligatory, but suggest a fix or reason for the bug -->
+
 ## Your Environment
 <!--- Include as many relevant details about the environment you experienced the bug in -->
 * Version used:
-* Environment name and version (e.g. Chrome 39, node.js 5.4):
 * Operating System and version (desktop or mobile):
-* Link to your project:
