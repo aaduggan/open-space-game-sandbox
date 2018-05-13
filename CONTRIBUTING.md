@@ -14,7 +14,7 @@ We hope that the following document will help you to better understand how to fi
 
 Things always go better when you have someone you can ask questions of, and here its no different.  One of the best ways to determine how you might want to contribute is to understand where the project is and the direction its headed.
 
-## How to Get Help
+## How to Get Help<a id="how-to-get-help"></a>
 * Documentation - There is documentation for most aspects of the game, choose those that most closely match your needs
     * [Project](https://github.com/Enterlucent/open-space-game/wiki/)
     * [Studio](https://github.com/Enterlucent/open-space-game-studio/wiki/)
