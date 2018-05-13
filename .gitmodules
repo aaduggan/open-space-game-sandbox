@@ -1,6 +1,3 @@
-[submodule "Assets/Graphics"]
-	path = Assets/Graphics
-	url = https://github.com/Enterlucent/open-space-game-assets.git
 [submodule "Assets/Internal"]
 	path = Assets/Internal
 	url = https://github.com/Enterlucent/open-space-game-assets.git
