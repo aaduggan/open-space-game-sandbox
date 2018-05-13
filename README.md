@@ -8,12 +8,12 @@ Open-Space-Game is a mix genre game set in an open universe.  The goal of this p
 * [Support Questions](CONTRIBUTING.md#how-to-open-a-support-question) - Check to see if any one else has had the same question.
 
 ## Prerequisites
-1. Download and Install the Project Version of [Unity](./ProjectSettings/ProjectVersion.txt)
+1. Download and Install the [Project Version](./ProjectSettings/ProjectVersion.txt) of [Unity](https://public-cdn.cloud.unity3d.com/hub/prod/UnityHubSetup.exe)
 
 ## Installing
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-1. Fork or Clone a copy of the repository
-2. Launch Unity and "Open" the directory you checked out in step 1.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+1. [Clone](https://help.github.com/articles/cloning-a-repository/) a copy of the repository to your local system
+2. Launch Unity and "Open" the directory you cloned in step 1.
 Once you have the project loaded, navigate (within Unity) to './Assets/Scenes/' to find the current demos
 
 ## Contributing
@@ -26,6 +26,10 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on submitting work to
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
-This project is licensed under the GPL3 License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the GPL 3.0 License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
+Mini Mike's Metro Minis<br/>
+Mike Judge [mikelovesrobots](https://github.com/mikelovesrobots)<br/>
+https://github.com/mikelovesrobots/mmmm<br/>
+

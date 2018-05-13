@@ -4,8 +4,9 @@ about: Suggest an idea for this project
 
 ---
 
-<!--- Please add the "enhancement" label and the "asset", "coding" or "documentation" labels as applicable -->
-<!--- Provide a general summary of the issue in the Title above -->
+<!--- Ensure you are in the proper repository for the feature request.-->
+<!--- Please add the "enhancement" label found to the right -->
+<!--- Provide a general summary of the request in the Title above -->
 
 ## Detailed Description
 <!--- Provide a detailed description of the change or addition you are proposing -->
@@ -20,6 +21,4 @@ about: Suggest an idea for this project
 ## Your Environment
 <!--- Include as many relevant details about the environment you experienced the bug in -->
 * Version used:
-* Environment name and version (e.g. Chrome 39, node.js 5.4):
 * Operating System and version (desktop or mobile):
-* Link to your project:
