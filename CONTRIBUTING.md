@@ -203,6 +203,9 @@ Programmers are responsible for implementing the features presented by Game Desi
 4. [Update](https://gist.github.com/gitaarik/8735255#keeping-your-submodules-up-to-date) sub-modules
 5. Make any changes or additions to your new branch (**do not** modify "./Assets/Internal")
     * Make sure to keep your fork in sync with the original repository
+    * Ensure all files have been white-space formatted
+        * Often the default formatting for Visual Studio or MonoDevelop will do
+        * If you use Visual Studio you can use the [official format settings](/Documentation/Files/CONTRIBUTING/open-space-game.vssettings)
 6. When finished, submit a [Pull Request](https://help.github.com/articles/about-pull-requests/) that includes just the changes in the Issue.
     * Others may ask questions or request changes so make sure to check back, or enable the notification options!
 7. The [Pull Request](https://help.github.com/articles/about-pull-requests/) will be reviewed and, if approved, will be merged.
