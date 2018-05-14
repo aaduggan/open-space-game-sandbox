@@ -32,7 +32,6 @@ Once you have the project loaded, navigate (within Unity) to './Assets/Scenes/' 
     * [Assets](https://github.com/Enterlucent/open-space-game-assets/Documentation/)
     * [GitHub Pages](https://www.open-space-game.org/)
 * [Discord](https://discord.gg/zk3NZEc) - There is a project  chat server if you'd like to join it
-* [Support Questions](#how-to-open-a-support-question) - Check to see if any one else has had the same question.
 
 ## How to Open a Support Question
 1. Determine if your question has already been asked by others
