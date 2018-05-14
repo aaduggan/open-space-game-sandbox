@@ -5,7 +5,8 @@ Open-Space-Game is a mix genre game set in an open universe.  The goal of this p
 ## Getting Started
 * [Getting Information](CONTRIBUTING.md#how-to-get-information) - Where the documentation can be found
 * [Support Questions](CONTRIBUTING.md#how-to-open-a-support-question) - Check to see if any one else has had the same question.
-* [Doxygen](https://www.open-space-game.org/Documentation/Doxygen/html/index.html) - Documentation for Programmers
+<!-- CHANGE THIS IN PRODUCTION -->
+* [Doxygen](https://www.enterlucent.org/open-space-game-sandbox/Documentation/Doxygen/html/index.html) - Documentation for Programmers
 * [Discord](https://discord.gg/zk3NZEc) - There is a project  chat server if you'd like to join it
 
 ## Prerequisites
@@ -30,7 +31,8 @@ Please read [CONTRIBUTING](CONTRIBUTING.md) for details on submitting work to th
 * **Michael Wigley** - *Programming* - [mdwigley](https://github.com/mdwigley)
 * **Ayla Duggan** - *Artist* - [aaduggan](https://github.com/aaduggan)
 
-See also the list of [contributors](https://github.com/mdwigley/open-space-game/graphs/contributors) who participated in this project.
+<!-- CHANGE THIS IN PRODUCTION -->
+See also the list of [contributors](https://github.com/Enterlucent/open-space-game-sandbox/graphs/contributors) who participated in this project.
 
 ## License
 This project is licensed under the GPL 3.0 License - see the [LICENSE](LICENSE.md) file for details.
