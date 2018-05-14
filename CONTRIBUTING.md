@@ -1,6 +1,4 @@
 # Quick Start<a id="quick-start"></a>
-* [How to Get Information](#how-to-get-information)
-* [How to Open a Support Question](#how-to-open-a-support-question)
 * [How to Open a Bug Report](#how-to-open-a-bug-report)
 * [How to Open a Feature Request](#how-to-open-a-feature-request)
 * [How to Find Documentation Tasks](#how-to-find-documentation-tasks)
@@ -11,40 +9,6 @@
 Thank you for taking a look at open-space-game.  With the help of potential contributors, like you, we hope to make this one of the best SIM-RTS-RPG-FPS (hew!) games out there.
 
 The following document was put together to help you to better understand how to find something to do, how to go about doing that thing and then how to share that with the rest of the community.  We understand that it's very frustrating having a desire to help out but not knowing where to start or, you know where to start, but lack the detailed instructions for doing something you already know you want to do.
-
-Things always go better when you have someone you can ask questions of, and here its no different.  One of the best ways to determine how you might want to contribute is to understand where the project is and the direction its headed.
-
-## How to Get Information<a id="how-to-get-information"></a>
-* Documentation - There is documentation for most aspects of the game, choose those that most closely match your needs
-    * [Project](https://github.com/Enterlucent/open-space-game/Documentation/)
-    * [Studio](https://github.com/Enterlucent/open-space-game-studio/Documentation/)
-    * [Assets](https://github.com/Enterlucent/open-space-game-assets/Documentation/)
-    * [GitHub Pages](https://www.open-space-game.org/)
-* [Discord](https://discord.gg/zk3NZEc) - There is a project  chat server if you'd like to join it
-* [Support Questions](#how-to-open-a-support-question) - Check to see if any one else has had the same question.
-
-If ever you can't find the answers to the questions you have (and that might be often) we have tried to make getting those answers as easy as possible.
-
-## How to Open a Support Question<a id="how-to-open-a-support-question"></a>
-1. Determine if your question has already been asked by others
-    * There are a number of sub-projects that comprise open-space-game so you may want to start by finding the sub-project that best suits your question
-        * [Project](https://github.com/Enterlucent/open-space-game/issues?q=label%3Aquestion+is%3Aall)
-        * [Studio](https://github.com/Enterlucent/open-space-game-studio/issues?q=label%3Aquestion+is%3Aall)
-        * [Assets](https://github.com/Enterlucent/open-space-game-assets/issues?q=label%3Aquestion+is%3Aall)
-        * [GitHub Page](https://github.com/Enterlucent/open-space-game.github.io/issues?q=label%3Aquestion+is%3Aall)
-    * If you find the question then there's no need to open another ticket.
-    * If you do not feel the question has been thoroughly answered, then comment on it and ask for more clarification
-2. Create a Question Issue
-    * Choose the most appropriate repository for your question:
-        * [Project](https://github.com/Enterlucent/open-space-game/issues/new?template=Custom.md) - The main project of open-space-game
-        * [Studio](https://github.com/Enterlucent/open-space-game-assets/issues/new?template=Custom.md) - The interface used by asset creators to translate their work into unity assets
-        * [Assets](https://github.com/Enterlucent/open-space-game-assets/issues/new?template=Custom.md) - The assets used by open-space-game
-        * [GitHub Pages](https://github.com/Enterlucent/open-space-game-github.io/issues/new?template=Custom.md) - The web-page and other public documents
-    * Add the "question" label when creating (found to the right of the text input)
-    * Try to be as detailed as possible
-    * Try to use clear and direct language as much as possible
-3. Check back, or enable the notification options, to see the answer to your question
-    * Keep in mind that everyone is here in their free time and there may be gaps when responses are slow.    Feel free to set the notification settings for the question so you'll know immediately when its answered.
 
 # Getting Started
 In every game studio the tasks are broken down into manageable parts.    Those parts are then worked on by people who have the desire and the talent to get those tasks accomplished.  These tasks often fall into a number of specific roles:
