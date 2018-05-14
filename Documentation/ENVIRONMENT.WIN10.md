@@ -86,8 +86,6 @@ First we will tell Git that we would like it to use Sublime 3 for our text edito
 
 * git config --global core.editor "'c:/program files/sublime text 3/subl.exe' -w"
 
-![alt text](./Images/Documentation/ENVIRONMENT.WIN10/environment.sublime.path.png)
-
 Next we will need to setup the application paths.  Start by hitting the windows key and then typing "Advanced System Settings" and choosing it from the list:
 
 ![alt text](./Images/Documentation/ENVIRONMENT.WIN10/environment.git.path1.png)
