@@ -16,9 +16,9 @@ Things always go better when you have someone you can ask questions of, and here
 
 ## How to Get Information<a id="how-to-get-information"></a>
 * Documentation - There is documentation for most aspects of the game, choose those that most closely match your needs
-    * [Project](https://github.com/Enterlucent/open-space-game/wiki/)
-    * [Studio](https://github.com/Enterlucent/open-space-game-studio/wiki/)
-    * [Assets](https://github.com/Enterlucent/open-space-game-assets/wiki/)
+    * [Project](https://github.com/Enterlucent/open-space-game/Documentation/)
+    * [Studio](https://github.com/Enterlucent/open-space-game-studio/Documentation/)
+    * [Assets](https://github.com/Enterlucent/open-space-game-assets/Documentation/)
     * [GitHub Pages](https://www.open-space-game.org/)
 * [Discord](https://discord.gg/zk3NZEc) - There is a project  chat server if you'd like to join it
 * [Support Questions](#how-to-open-a-support-question) - Check to see if any one else has had the same question.
@@ -117,17 +117,17 @@ Often, these skilled people come after a large part of the functionality of the 
         * [GitHub Page](https://github.com/Enterlucent/open-space-game.github.io/issues?q=label%3Aenhancement,documentation,accepted+is%3Aopen+no%3Aassignee)
     * Issues must be open, "approved" and unassigned **before any work should be done**.
 2. There may be bugs in the current documentation so it may be worthwhile to look there as well
-    * [Project](https://github.com/Enterlucent/open-space-game/wiki/)
-    * [Studio](https://github.com/Enterlucent/open-space-game-studio/wiki/)
-    * [Assets](https://github.com/Enterlucent/open-space-game-assets/wiki/)
+    * [Project](https://github.com/Enterlucent/open-space-game/Documentation/)
+    * [Studio](https://github.com/Enterlucent/open-space-game-studio/Documentation/)
+    * [Assets](https://github.com/Enterlucent/open-space-game-assets/)
     * [GitHub Pages](https://www.open-space-game.org)
 
 ## How to Submit Documentation<a id="how-to-submit-documentation"></a>
 1. [Find an Issue](#how-to-find-documentation-tasks) to resolve
 2. [Fork](https://help.github.com/articles/fork-a-repo/) the repository for the Issue you are resolving
-    * [Project](https://github.com/Enterlucent/open-space-game/wiki/)
-    * [Studio](https://github.com/Enterlucent/open-space-game-studio/wiki/)
-    * [Assets](https://github.com/Enterlucent/open-space-game-assets/wiki/)
+    * [Project](https://github.com/Enterlucent/open-space-game/)
+    * [Studio](https://github.com/Enterlucent/open-space-game-studio/)
+    * [Assets](https://github.com/Enterlucent/open-space-game-assets/)
     * [GitHub Pages](https://github.com/Enterlucent/open-space-game.github.io/)
 3. Create a new branch with the format 'issue#{issue-id}-{your-github-user}' `(ie issue#224-mdwigley)`
 4. Make any changes or additions to your new branch
