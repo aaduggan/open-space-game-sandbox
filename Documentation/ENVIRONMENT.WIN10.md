@@ -1,4 +1,4 @@
-# Setting up the Development Environment From Scratch
+# Setting Up the Development Environment From Scratch
 
 ## Introduction
 
@@ -82,7 +82,7 @@ After you install Unity Hub requires that you sign in to use their product.  You
 
 ### Setup Paths<a id="configure-setup-paths"></a>
 
-First we will tell Git that we would like it to use Sublime 3 for our text editor.  To do this, you will right click on some open space on the desktop and select "Git Bash Here".  In the prompt type the following and then hit enter:
+First we will tell Git that we would like it to use Sublime 3 for our text editor.  To do this, you will right click on some open space on the desktop and select "Git Bash Here".  In the prompt copy and paste the following then hit enter (there will be no response text):
 
 * git config --global core.editor "'c:/program files/sublime text 3/subl.exe' -w"
 

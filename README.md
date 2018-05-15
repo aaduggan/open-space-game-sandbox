@@ -29,7 +29,7 @@ Once you have the project loaded, navigate (within Unity) to './Assets/Scenes/' 
 * Documentation - There is documentation for most aspects of the game, choose those that most closely match your needs
     * [Project](https://github.com/Enterlucent/open-space-game/Documentation/)
     * [Studio](https://github.com/Enterlucent/open-space-game-studio/Documentation/)
-    * [Assets](https://github.com/Enterlucent/open-space-game-assets/Documentation/)
+    * [Assets](https://github.com/Enterlucent/open-space-game-assets/)
     * [GitHub Pages](https://www.open-space-game.org/)
 * [Discord](https://discord.gg/zk3NZEc) - There is a project  chat server if you'd like to join it
 

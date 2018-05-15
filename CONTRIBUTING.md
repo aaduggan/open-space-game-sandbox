@@ -95,7 +95,7 @@ Often, these skilled people come after a large part of the functionality of the 
     * [GitHub Pages](https://github.com/Enterlucent/open-space-game.github.io/)
 3. Create a new branch with the format 'issue#{issue-id}-{your-github-user}' `(ie issue#224-mdwigley)`
 4. Make any changes or additions to your new branch
-    * Make sure to keep your fork in sync with the original repository
+    * Make sure to [keep your forks in sync](https://help.github.com/articles/syncing-a-fork/) with the original repository
 5. When finished, submit a [Pull Request](https://help.github.com/articles/about-pull-requests/) that includes just the changes in the Issue.
     * Others may ask questions or request changes so make sure to check back, or enable the notification options!
 6. The [Pull Request](https://help.github.com/articles/about-pull-requests/) will be reviewed and, if approved, will be merged.
@@ -202,10 +202,12 @@ Programmers are responsible for implementing the features presented by Game Desi
 3. [Create a new branch](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/) with the format 'issue#{issue-id}-{your-github-user}' `(ie issue#224-mdwigley)`
 4. [Update](https://gist.github.com/gitaarik/8735255#keeping-your-submodules-up-to-date) sub-modules
 5. Make any changes or additions to your new branch (**do not** modify "./Assets/Internal")
-    * Make sure to keep your fork in sync with the original repository
+    * Make sure to [keep your forks in sync](https://help.github.com/articles/syncing-a-fork/) with the original repository
     * Ensure all files have been white-space formatted
         * Often the default formatting for Visual Studio or MonoDevelop will do
         * If you use Visual Studio you can use the [official format settings](/Documentation/Files/CONTRIBUTING/open-space-game.vssettings)
+    * Comment your code both code level and member/class definitions
+        * We use Doxygen for code level documentation
 6. When finished, submit a [Pull Request](https://help.github.com/articles/about-pull-requests/) that includes just the changes in the Issue.
     * Others may ask questions or request changes so make sure to check back, or enable the notification options!
 7. The [Pull Request](https://help.github.com/articles/about-pull-requests/) will be reviewed and, if approved, will be merged.
@@ -222,21 +224,21 @@ The title Artist, in this respect, covers a wide array of potential contributors
 2. Assist Team Members/Contributor already assigned to an Issue
     * If a Team Member/Contributor is working on something you feel you are particularly good with, ask if they would like assistance and if there is anything you can do to help.
     * Whoever is assigned to an Issue is ultimately responsible for it and has the final say on how that Issue will be implemented.
-        * if you fundamentally disagree with an approach or implementation you are free to voice that concern in the Issue and can ultimately file a Feature Request to change the implementation or approach in the future.
-    * Not all Programmers or Issues lend themselves to assistance so please do not take it personally if the Programmer doesn't want/need assistance.
+        * If you fundamentally disagree with an approach or implementation you are free to voice that concern in the Issue and can ultimately file a Feature Request to change the implementation or approach in the future.
+    * Not all Artists or Issues lend themselves to assistance so please do not take it personally if the Artist doesn't want/need assistance.
 
 ## How to Submit Assets<a id="how-to-submit-assets"></a>
 1. [Find an issue](#how-to-find-crative-tasks) to resolve
 2. [Fork](https://help.github.com/articles/fork-a-repo/) the [Studio](https://github.com/Enterlucent/open-space-game-studio) and [Assets](https://github.com/Enterlucent/open-space-game-assets) repositories
+4. [Update](https://gist.github.com/gitaarik/8735255#keeping-your-submodules-up-to-date) sub-modules in Studio
 3. [Create a new branch](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/) in the Assets repository with the format 'issue#{issue-id}-{your-github-user}' `(ie issue#224-mdwigley)`
-4. [Update](https://gist.github.com/gitaarik/8735255#keeping-your-submodules-up-to-date) sub-modules
-5. Make any changes or additions to your new branch under **"./Assets/Internal/"**
-    * Make sure to keep your fork in sync with the original repository
-6. Commit changes to your Asset repository branch (**not** the Studio repository)
+5. Make any changes or additions to your new branch under the sub-module starting at **"./Assets/Internal/"**
+    * Make sure to [keep your forks in sync](https://help.github.com/articles/syncing-a-fork/) with the original repository
+6. Commit changes to your branch on the Asset repository (**not** the Studio repository)
 6. When finished, submit a [Pull Request](https://help.github.com/articles/about-pull-requests/) that includes just the changes in the Issue.
     * Others may ask questions or request changes so make sure to check back, or enable the notification options!
 7. The [Pull Request](https://help.github.com/articles/about-pull-requests/) will be reviewed and, if approved, will be merged.
-    * If there is an Asset Issue in conjunction with the Project Issue, the feature will not be moved to the master branch until all dependent parts have been completed.
+    * If there is an Project Issue in conjunction with the Asset Issue, the feature will not be moved to the master branch until all dependent parts have been completed.
     * When merged you will be an official contributor!
 
 # Attribution
