@@ -32,7 +32,7 @@ When contributing please take note that we subscribe to the [Contributor Covenan
 This is by far the most open-ended of the roles as there is no telling who might find our game fun and become impassioned enough to tell others; and we like it like that.  If you feel the need to express your love for open-space-game then we encourage you, however, there are some things we would rather you NOT do:
 
 ## Prohibitions
-* **NO LYING** - No providing false or misleading information in regards to open-space-game, it's developers, it's community, those that have contributed, those that will contribute or about anyone or anything that has, currently or will at some future time exist in our shared thee dimensional universe.
+* **NO LYING** - No providing false or misleading information in regards to open-space-game, it's developers, it's community, those that have contributed, those that will contribute or about anyone or anything that has, currently or will at some future time exist in our shared three dimensional universe.
 * **Post to Appropriate Places** - Do not post information on forums, chat rooms, message boards, mailing lists or any other form of communication in which ideas are transfered from one being to another that is not appropriate to that venue.
 * **Respect Other's Disinterest** - If a community doesn't wish to know about the awesome that is open-space-game then do not press or in any way make yourself an annoyance to those who you are evangelizing.
 * **NO HYPE** - This is an open source project created by other passionate people who are in no way, shape, or form bound to it in any substantial way other than their own desire to do so (just like you!).    Things will take as long as they take and hype only makes for people getting upset and disappointed (Skyrim Together!!!!!!).
@@ -40,7 +40,7 @@ This is by far the most open-ended of the roles as there is no telling who might
 Outside of the above items **you should not do**, feel free to tell everyone far and wide about the virtues of open-space-game and how it can improve their lives.  Also, let developers know that if they too wish to partake in our community that we would very much appreciate anything they have to offer.  Just like yourself, we are all here because of our desire to make open-space-game great and in the end this project is not about the documents, assets or the logic but is about the people and our shared vision.
 
 # Quality Controller<a id="quality-controller"></a>
-These are the true warriors, fighting in the trenches to bring a better experience for the rest, it can not be stressed enough how important good Quality Controllers are to a project.  Many software houses tend to under value the work that Quality Controllers provide and often leave it to the community to (wait ...) debug their code, assets and documentation.  Here we understand the absolute need for the services they provide and are grateful for every detailed bug report provided.
+These are the true warriors, fighting in the trenches to bring a better experience for the rest, it can not be stressed enough how important good Quality Controllers are to a project.  Many software houses tend to under value the work that Quality Controllers provide and often leave it to the community to debug (oh ...) their code, assets and documentation.  Here we understand the absolute need for the services they provide and are grateful for every detailed bug report provided.
 
 ## How to Open a Bug Report<a id="how-to-submit-a-bug-report"></a>
 1. Determine if the bug has already been reported
@@ -57,7 +57,7 @@ These are the true warriors, fighting in the trenches to bring a better experien
         * [Studio](https://github.com/Enterlucent/open-space-game-studio/issues/new?template=Bug_report.md)
         * [Assets](https://github.com/Enterlucent/open-space-game-assets/issues/new?template=Bug_report.md)
         * [GitHub Page](https://github.com/Enterlucent/open-space-game.github.io/issues/new?template=Bug_report.md)
-    * Add the "bug" label (to the right of the text inputs)
+    * Add [BUG] to the begging of your issue title _(ie [BUG] Cats get to many Cheeseburgers)_
     * Make sure that you are very detailed with what you are experiencing
 3. Check back often, or enable the notification options, in case others have questions or need further clarification
 
@@ -75,10 +75,10 @@ Often, these skilled people come after a large part of the functionality of the 
 ## How to Find Documentation Tasks<a id="how-to-find-documentation-tasks"></a>
 1. All projects need documentation so there are a number of places to look when trying to find Issues to resolve:
     * Project Repositories
-        * [Project](https://github.com/Enterlucent/open-space-game/issues?q=label%3Aenhancement,documentation,accepted+is%3Aopen+no%3Aassignee)
-        * [Studio](https://github.com/Enterlucent/open-space-game-studio/issues?q=label%3Aenhancement,documentation,accepted+is%3Aopen+no%3Aassignee)
-        * [Assets](https://github.com/Enterlucent/open-space-game-assets/issues?q=label%3Aenhancement,documentation,accepted+is%3Aopen+no%3Aassignee)
-        * [GitHub Page](https://github.com/Enterlucent/open-space-game.github.io/issues?q=label%3Aenhancement,documentation,accepted+is%3Aopen+no%3Aassignee)
+        * [Project](https://github.com/Enterlucent/open-space-game/issues?q=label%3Aenhancement,documentation,approved+is%3Aopen+no%3Aassignee)
+        * [Studio](https://github.com/Enterlucent/open-space-game-studio/issues?q=label%3Aenhancement,documentation,approved+is%3Aopen+no%3Aassignee)
+        * [Assets](https://github.com/Enterlucent/open-space-game-assets/issues?q=label%3Aenhancement,documentation,approved+is%3Aopen+no%3Aassignee)
+        * [GitHub Page](https://github.com/Enterlucent/open-space-game.github.io/issues?q=label%3Aenhancement,documentation,approved+is%3Aopen+no%3Aassignee)
     * Issues must be open, "approved" and unassigned **before any work should be done**.
 2. There may be bugs in the current documentation so it may be worthwhile to look there as well
     * [Project](https://github.com/Enterlucent/open-space-game/Documentation/)
@@ -93,13 +93,14 @@ Often, these skilled people come after a large part of the functionality of the 
     * [Studio](https://github.com/Enterlucent/open-space-game-studio/)
     * [Assets](https://github.com/Enterlucent/open-space-game-assets/)
     * [GitHub Pages](https://github.com/Enterlucent/open-space-game.github.io/)
-3. Create a new branch with the format 'issue#{issue-id}-{your-github-user}' `(ie issue#224-mdwigley)`
+3. Create a new branch with the format 'issue#{issue-id}-{your-github-user}' _(ie issue#224-mdwigley)_
 4. Make any changes or additions to your new branch
     * Make sure to [keep your forks in sync](https://help.github.com/articles/syncing-a-fork/) with the original repository
+    * If you find that you need help with implementation, ask to have the "Help Wanted" label added to the issue as well as seeking others on the [Discord](https://discord.gg/zk3NZEc) server
 5. When finished, submit a [Pull Request](https://help.github.com/articles/about-pull-requests/) that includes just the changes in the Issue.
     * Others may ask questions or request changes so make sure to check back, or enable the notification options!
 6. The [Pull Request](https://help.github.com/articles/about-pull-requests/) will be reviewed and, if approved, will be merged.
-    * If there is an Asset Issue in conjunction with the Project Issue, the feature will not be moved to the master branch until all dependent parts have been completed.
+    * If there is an Asset or Project Issue in conjunction with the Documentation Issue, the feature will not be moved to the master branch until all dependent parts have been completed.
     * When merged you will be an official contributor.
 
 ## 3rd-Party Submissions
@@ -107,7 +108,7 @@ As previously mentioned, there are a wide variety of ways someone could help wit
 
 If you have created something that you would like to see linked on our [GitHub Pages](https://www.open-space-game.org/) or [Wiki](https://github.com/Enterlucent/open-space-game/wiki):
 * Create a "Feature Request" on the [Project](https://github.com/Enterlucent/open-space-game/issues/new?template=Feature_request.md) or [GitHub Pages](https://github.com/Enterlucent/open-space-game/issues/new?template=Feature_request.md) Issues page.
-* Add the labels "enhancement" and "documentation"
+    * Add [PROMOTION] to the title _(ie [PROMOTION] How to Install Tutorial)_
 * Maintainers may ask questions or request changes so make sure to check back!
 * If the submission is accepted you will be notified via your Issue when it's been completed.
 
@@ -132,7 +133,7 @@ When you have the next best feature for the open-space-game project you will fir
         * You must provide a reference to the Documentation Request in the Feature Request Issue
     * Make sure that you are very detailed with what you think the feature should accomplish, how it should be implemented and it's predicted effect on other features.
 3. Check back often, or enable the notification options, in the event others have questions about your proposal
-4. You will know when the feature is accepted when the "accepted" label is assigned to it
+4. You will know when the feature is accepted when the "approved" label is assigned to it
     * If there are multiple requests as a part of the feature, the feature will not be moved to the master branch until all dependent parts have been completed.
     * It is important to keep in mind that all new features, even simple changes, often have wide ranging effect which need to be fully explored.
     * Also remember that not all features can be added into the game (but I'm sure we'll try!) and features need to be released in an orderly way so even if the feature is accepted it may not go in immediately.
@@ -145,7 +146,7 @@ When you have the next best feature for the open-space-game project you will fir
         * You must provide a reference to the Documentation Request in the Feature Request Issue
     * The more detailed you are (reference image links are suggested) the more likely you are to get an artist to pick it up.
 3. Check back often, or enable the notification options, in the event others have questions about your proposal
-4. You will know when the feature is accepted when the "accepted" label is assigned to it
+4. You will know when the feature is accepted when the "approved" label is assigned to it
     * If there are multiple requests as a part of the feature, the feature will not be moved to the master branch until all dependent parts have been completed.
 
 ## How to Open a Studio Feature Request<a id="how-to-open-a-studio-request"></a>
@@ -156,7 +157,7 @@ When you have the next best feature for the open-space-game project you will fir
         * You must provide a reference to the Documentation Request in the Feature Request Issue
     * Make sure that you are very detailed with what you think the feature should accomplish, how it should be implemented and it's predicted effect on other features.
 3. Check back often, or enable the notification options, in the event others have questions about your proposal
-4. You will know when the feature is accepted when the "accepted" label is assigned to it
+4. You will know when the feature is accepted when the "approved" label is assigned to it
     * If there are multiple requests as a part of the feature, the feature will not be moved to the master branch until all dependent parts have been completed.
 
 ## How to Open a Documentation Request<a id="how-to-open-a-documentation-request"></a>
@@ -174,8 +175,9 @@ When you have the next best feature for the open-space-game project you will fir
         * [Studio](https://github.com/Enterlucent/open-space-game-studio/issues/new?template=Feature_request.md)
         * [Assets](https://github.com/Enterlucent/open-space-game-asset/issues/new?template=Feature_request.md)
         * [GitHub Pages](https://github.com/Enterlucent/open-space-game-github.io/issues/new?template=Feature_request.md)
+    * Add the [DOC] the title of your issue _(ie. [DOC] How to Install Open-Space-Game)_
 3. Others may ask questions or request changes to your proposal so make sure to check back, or enable the notification options!
-4. You will know if the Issue will be implemented when it's given the "accepted" label
+4. You will know if the Issue is accepted when it's given the "approved" label
     * If there are multiple requests as a part of the request, the request will not be moved to the master branch until all dependent parts have been completed.
 
 # Programmer<a id="programmer"></a>
@@ -184,14 +186,14 @@ Programmers are responsible for implementing the features presented by Game Desi
 ## How to Find Something TODO<a id="how-to-find-programing-tasks"></a>
 1. Look on the issue trackers
     * Coding Repositories:
-        * [Project](https://github.com/Enterlucent/open-space-game/issues?q=label%3Aenhancement,accepted+is%3Aopen+no%3Aassignee+!label%3Adocumentation)
-        * [Studio](https://github.com/Enterlucent/open-space-game-studio/issues?q=label%3Aenhancement,accepted+is%3Aopen+no%3Aassignee+!label%3Adocumentation)
+        * [Project](https://github.com/Enterlucent/open-space-game/issues?q=label%3Aenhancement,approved+is%3Aopen+no%3Aassignee+!label%3Adocumentation)
+        * [Studio](https://github.com/Enterlucent/open-space-game-studio/issues?q=label%3Aenhancement,approved+is%3Aopen+no%3Aassignee+!label%3Adocumentation)
     * Ask questions about implementation on the Issue thread and/or join the [Discord](https://discord.gg/zk3NZEc) server to talk with people in real time.
     * Issues must be open, "approved" and unassigned **before any work should be done**.
 2. Assist Team Members/Contributor already assigned to an Issue
     * If a Team Member/Contributor is working on something you feel you are particularly good with, ask if they would like assistance and if there is anything you can do to help.
     * Whoever is assigned to an Issue is ultimately responsible for it and has the final say on how that Issue will be implemented.
-        * if you fundamentally disagree with an approach or implementation you are free to voice that concern in the Issue and can ultimately file a Feature Request to change the implementation or approach in the future.
+        * if you fundamentally disagree with an approach or implementation you are free to voice that concern in the Issue and can ultimately file a subsequent Feature Request to change the implementation or approach in the future.
     * Not all Programmers or Issues lend themselves to assistance so please do not take it personally if the Programmer doesn't want/need assistance.
 
 ## How to Submit Code<a id="how-to-submit-code"></a>
@@ -199,46 +201,48 @@ Programmers are responsible for implementing the features presented by Game Desi
 2. [Fork](https://help.github.com/articles/fork-a-repo/) the repository for the Issue you are resolving
     * [Project](https://github.com/Enterlucent/open-space-game/)
     * [Studio](https://github.com/Enterlucent/open-space-game-studio/)
-3. [Create a new branch](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/) with the format 'issue#{issue-id}-{your-github-user}' `(ie issue#224-mdwigley)`
+3. [Create a new branch](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/) with the format 'issue#{issue-id}-{your-github-user}' _(ie issue#224-mdwigley)_
 4. [Update](https://gist.github.com/gitaarik/8735255#keeping-your-submodules-up-to-date) sub-modules
 5. Make any changes or additions to your new branch (**do not** modify "./Assets/Internal")
     * Make sure to [keep your forks in sync](https://help.github.com/articles/syncing-a-fork/) with the original repository
+    * If you find that you need help with implementation, ask to have the "Help Wanted" label added to the issue as well as seeking others on the [Discord](https://discord.gg/zk3NZEc) server
     * Ensure all files have been white-space formatted
         * Often the default formatting for Visual Studio or MonoDevelop will do
         * If you use Visual Studio you can use the [official format settings](/Documentation/Files/CONTRIBUTING/open-space-game.vssettings)
-    * Comment your code both code level and member/class definitions
+    * Comment your code with both code level and construct definitions
         * We use Doxygen for code level documentation
 6. When finished, submit a [Pull Request](https://help.github.com/articles/about-pull-requests/) that includes just the changes in the Issue.
     * Others may ask questions or request changes so make sure to check back, or enable the notification options!
 7. The [Pull Request](https://help.github.com/articles/about-pull-requests/) will be reviewed and, if approved, will be merged.
-    * If there is an Asset Issue in conjunction with the Project Issue, the feature will not be moved to the master branch until all dependent parts have been completed.
+    * If there is an Asset or Documentation Issue in conjunction with the Project Issue, the feature will not be moved to the master branch until all dependent parts have been completed.
     * When merged you will be an official contributor!
 
 # Artist<a id="artist"></a>
-The title Artist, in this respect, covers a wide array of potential contributors skill sets. From audio to particle systems to models and textures, there is a near endless need for assets and no lack of need for their refinement and optimization.    What sets a video game artist into a league of their own is the equally wide array of technical knowledge surrounding the implementation of their art.
+The title Artist, in this respect, covers a wide array of potential contributors skill sets. From audio to particle systems to models and textures to sprites and UI, there is a near endless need for assets and no lack of need for their refinement and optimization.    What sets a video game artist into a league of their own is the equally wide array of technical knowledge surrounding the implementation of their art.
 
 ## How to Find Creative Tasks<a id="how-to-find-creative-tasks"></a>
-1. Look at the Issue tracker for game asset [Feature Requests](https://github.com/Enterlucent/open-space-game-assets/issues?q=label%3Aenhancement+is%3Aopen+no%3Aassignee+!label%3Adocumentation)
+1. Look at the Issue tracker for [Asset Requests](https://github.com/Enterlucent/open-space-game-assets/issues?q=label%3Aenhancement+is%3Aopen+no%3Aassignee+!label%3Adocumentation)
     * Only Issues with the label of "approved" should have any work performed
     * Ask questions about implementation on the Issue thread and/or join the [Discord](https://discord.gg/zk3NZEc) server to talk with people in real time.
 2. Assist Team Members/Contributor already assigned to an Issue
     * If a Team Member/Contributor is working on something you feel you are particularly good with, ask if they would like assistance and if there is anything you can do to help.
     * Whoever is assigned to an Issue is ultimately responsible for it and has the final say on how that Issue will be implemented.
-        * If you fundamentally disagree with an approach or implementation you are free to voice that concern in the Issue and can ultimately file a Feature Request to change the implementation or approach in the future.
+        * If you fundamentally disagree with an approach or implementation you are free to voice that concern in the Issue and can ultimately file a subsequent Asset Request to change the implementation or approach in the future.
     * Not all Artists or Issues lend themselves to assistance so please do not take it personally if the Artist doesn't want/need assistance.
 
 ## How to Submit Assets<a id="how-to-submit-assets"></a>
 1. [Find an issue](#how-to-find-crative-tasks) to resolve
-2. [Fork](https://help.github.com/articles/fork-a-repo/) the [Studio](https://github.com/Enterlucent/open-space-game-studio) and [Assets](https://github.com/Enterlucent/open-space-game-assets) repositories
+2. [Fork](https://help.github.com/articles/fork-a-repo/) the [Assets](https://github.com/Enterlucent/open-space-game-assets) repository and [clone](https://help.github.com/articles/cloning-a-repository/) the [Studio](https://github.com/Enterlucent/open-space-game-studio) repository to your local system.
 4. [Update](https://gist.github.com/gitaarik/8735255#keeping-your-submodules-up-to-date) sub-modules in Studio
-3. [Create a new branch](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/) in the Assets repository with the format 'issue#{issue-id}-{your-github-user}' `(ie issue#224-mdwigley)`
-5. Make any changes or additions to your new branch under the sub-module starting at **"./Assets/Internal/"**
-    * Make sure to [keep your forks in sync](https://help.github.com/articles/syncing-a-fork/) with the original repository
+3. [Create a new branch](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/) in the Assets fork with the format 'issue#{issue-id}-{your-github-user}' _(ie issue#167-aaduggan)_
+5. Make any changes or additions to your new branch under the Studio's Asset sub-module starting at **"./Assets/Internal/"**
+    * Make sure to both your clone and [fork](https://help.github.com/articles/syncing-a-fork/) in sync with the original repositories
+    * If you find that you need help with implementation, ask to have the "Help Wanted" label added to the issue as well as seeking others on the [Discord](https://discord.gg/zk3NZEc) server
 6. Commit changes to your branch on the Asset repository (**not** the Studio repository)
 6. When finished, submit a [Pull Request](https://help.github.com/articles/about-pull-requests/) that includes just the changes in the Issue.
     * Others may ask questions or request changes so make sure to check back, or enable the notification options!
 7. The [Pull Request](https://help.github.com/articles/about-pull-requests/) will be reviewed and, if approved, will be merged.
-    * If there is an Project Issue in conjunction with the Asset Issue, the feature will not be moved to the master branch until all dependent parts have been completed.
+    * If there is an Project or Documentation Issue in conjunction with the Asset Issue, the feature will not be moved to the master branch until all dependent parts have been completed.
     * When merged you will be an official contributor!
 
 # Attribution

@@ -48,7 +48,7 @@ Once you have the project loaded, navigate (within Unity) to './Assets/Scenes/' 
         * [Studio](https://github.com/Enterlucent/open-space-game-assets/issues/new?template=Custom.md)
         * [Assets](https://github.com/Enterlucent/open-space-game-assets/issues/new?template=Custom.md)
         * [GitHub Pages](https://github.com/Enterlucent/open-space-game-github.io/issues/new?template=Custom.md)
-    * Add the "question" label when creating (found to the right of the text input)
+    * Add [QUESTION] to the title of your Issue _(ie [QUESTION] How Do I Install This Game?)_
     * Try to be as detailed as possible
     * Try to use clear and direct language as much as possible
 3. Check back, or enable the notification options, to see the answer to your question
