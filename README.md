@@ -9,6 +9,7 @@ Open-Space-Game is a mix genre game set in an open universe.  The goal of this p
 * [Support Questions](#how-to-open-a-support-question) - Check to see if any one else has had the same question.
 * [Doxygen](https://www.enterlucent.org/open-space-game-sandbox/Documentation/Doxygen/html/index.html) - Documentation for Programmers <!-- CHANGE THIS IN PRODUCTION -->
 * [Discord](https://discord.gg/zk3NZEc) - There is a project  chat server if you'd like to join it
+* [Site Mention](#how-to-request-site-mention) - Do something open-space-game related and would like for us to link to it?
 
 ## Prerequisites
 1. Download and Install the [UnityHub](https://unity3d.com/get-unity/download)
@@ -25,7 +26,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 Once you have the project loaded, navigate (within Unity) to './Assets/Scenes/' to find the current demos
 
-## How to Get Information<a id="how-to-get-information"></a>
+## How to Get Information
 * Documentation - There is documentation for most aspects of the game, choose those that most closely match your needs
     * [Project](https://github.com/Enterlucent/open-space-game/Documentation/)
     * [Studio](https://github.com/Enterlucent/open-space-game-studio/Documentation/)
@@ -48,11 +49,18 @@ Once you have the project loaded, navigate (within Unity) to './Assets/Scenes/' 
         * [Studio](https://github.com/Enterlucent/open-space-game-assets/issues/new?template=Custom.md)
         * [Assets](https://github.com/Enterlucent/open-space-game-assets/issues/new?template=Custom.md)
         * [GitHub Pages](https://github.com/Enterlucent/open-space-game-github.io/issues/new?template=Custom.md)
-    * Add [QUESTION] to the title of your Issue _(ie [QUESTION] How Do I Install This Game?)_
+    * Add [?] to the title of your Issue _(ie [?] How Do I Install This Game?)_
     * Try to be as detailed as possible
     * Try to use clear and direct language as much as possible
 3. Check back, or enable the notification options, to see the answer to your question
     * Keep in mind that everyone is here in their free time and there may be gaps when responses are slow.    Feel free to set the notification settings for the question so you'll know immediately when its answered.
+
+## How to Request Site Mention
+If you have created something that you would like to see linked on our [GitHub Pages](https://www.open-space-game.org/):
+* Create a request on the [GitHub Pages](https://github.com/Enterlucent/open-space-game.github.io/issues/new?template=Feature_request.md) Issues tracker.
+    * Add [PROMO] to the title _(ie [PROMO] mypcrox.com: How to Install Tutorial)_
+* Maintainers may ask questions or request changes so make sure to check back!
+* If the submission is accepted you will be notified via your Issue when it's been completed.
 
 ## Contributing
 Please read [CONTRIBUTING](CONTRIBUTING.md) for details on submitting work to the project and our [code of conduct](.github/CODE_OF_CONDUCT.md).
