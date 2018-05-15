@@ -57,7 +57,7 @@ These are the true warriors, fighting in the trenches to bring a better experien
         * [Studio](https://github.com/Enterlucent/open-space-game-studio/issues/new?template=Bug_report.md)
         * [Assets](https://github.com/Enterlucent/open-space-game-assets/issues/new?template=Bug_report.md)
         * [GitHub Page](https://github.com/Enterlucent/open-space-game.github.io/issues/new?template=Bug_report.md)
-    * Add [BUG] to the begging of your issue title _(ie [BUG] Cats get to many Cheeseburgers)_
+    * Add [BUG] to the title of your issue _(ie [BUG] Cats Get Too Many Cheeseburgers)_
     * Make sure that you are very detailed with what you are experiencing
 3. Check back often, or enable the notification options, in case others have questions or need further clarification
 
@@ -106,9 +106,9 @@ Often, these skilled people come after a large part of the functionality of the 
 ## 3rd-Party Submissions
 As previously mentioned, there are a wide variety of ways someone could help with project documentation.  The type of documentation you might want to provide could very well have nothing to do with any of the more traditional documentation channels, be it a video tutorial on some aspect of game play or a tech article on some element of the development process.
 
-If you have created something that you would like to see linked on our [GitHub Pages](https://www.open-space-game.org/) or [Wiki](https://github.com/Enterlucent/open-space-game/wiki):
-* Create a "Feature Request" on the [Project](https://github.com/Enterlucent/open-space-game/issues/new?template=Feature_request.md) or [GitHub Pages](https://github.com/Enterlucent/open-space-game/issues/new?template=Feature_request.md) Issues page.
-    * Add [PROMOTION] to the title _(ie [PROMOTION] How to Install Tutorial)_
+If you have created something that you would like to see linked on our [GitHub Pages](https://www.open-space-game.org/):
+* Create a request on the [GitHub Pages](https://github.com/Enterlucent/open-space-game.github.io/issues/new?template=Feature_request.md) Issues tracker.
+    * Add [PROMOTION] to the title _(ie [PROMOTION] mypcrox.com: How to Install Tutorial)_
 * Maintainers may ask questions or request changes so make sure to check back!
 * If the submission is accepted you will be notified via your Issue when it's been completed.
 
@@ -175,7 +175,7 @@ When you have the next best feature for the open-space-game project you will fir
         * [Studio](https://github.com/Enterlucent/open-space-game-studio/issues/new?template=Feature_request.md)
         * [Assets](https://github.com/Enterlucent/open-space-game-asset/issues/new?template=Feature_request.md)
         * [GitHub Pages](https://github.com/Enterlucent/open-space-game-github.io/issues/new?template=Feature_request.md)
-    * Add the [DOC] the title of your issue _(ie. [DOC] How to Install Open-Space-Game)_
+    * Add [DOC] the title of your issue _(ie. [DOC] How to Install Open-Space-Game)_
 3. Others may ask questions or request changes to your proposal so make sure to check back, or enable the notification options!
 4. You will know if the Issue is accepted when it's given the "approved" label
     * If there are multiple requests as a part of the request, the request will not be moved to the master branch until all dependent parts have been completed.

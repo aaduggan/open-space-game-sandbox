@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This guide should walk you though the process of setting up your open-space-game development environment from scratch.   We make no assumptions about the skill level of the reader so in some cases this guide may seem pedantic.  We do make two assumptions in this guide, that the reader is using Windows 10 and has access to the Internet.
+This guide should walk you though the process of setting up your open-space-game development environment from scratch. We make no assumptions about the skill level of the reader so in some cases this guide may seem pedantic.  We do make two assumptions in this guide, that the reader is using Windows 10 and has access to the Internet.
 
 ## Table of Contents
 * [Prerequisites](#prerequisites)
@@ -37,20 +37,20 @@ You will start by installing TortioseGit and choosing the default options until 
 
 ![alt text](./Images/Documentation/ENVIRONMENT.WIN10/environment.tort.wizardend.png)
 
-Before you click "Finish" make sure that the check box for "Run first start wizard" is selected like in the image above.  Then click finish to start the First Start Wizard.
+Before you click "Finish" make sure that the check box for "Run first start wizard" is selected, like in the image above, then click finish.
 
 You will again select the default options until you get to where it asks you for the path to the git installation:
 
 ![alt text](./Images/Documentation/ENVIRONMENT.WIN10/environment.tort.gitpath.png)
 
-At this point we can go no further with TortoiseGit so we'll move the window for it off to the side and start the next installation.
+At this point we can go no further with TortoiseGit, so we'll move the window for it off to the side, and start the next installation.
 
 ### Git<a id="install-git"></a>
-Next you will install Git and, like before, we will allow it to use the default options, though we will want to make sure that it installs to the location showing on the TortoiseGit Wizard screen (the default).  Continue with the defaults until it asks us for how we want to use the console:
+Next you will install Git and, like before, we will allow it to use the default options.  You also will want to make sure that it installs to the location showing on the TortoiseGit Wizard screen (the default).  Continue with the defaults until it asks you about the console:
 
 ![alt text](./Images/Documentation/ENVIRONMENT.WIN10/environment.gitbash.png)
 
-where you will choose to use Git BASH only and not the windows command prompt.  Next it will ask you what method to use for authentication and we will use plink provided by TortoiseGit:
+where you will choose to use "Git Bash" only and not the windows command prompt.  Next it will ask you what method to use for authentication and we will use Plink provided by TortoiseGit:
 
 ![alt text](./Images/Documentation/ENVIRONMENT.WIN10/environment.git.plink.png)
 
@@ -71,10 +71,10 @@ You will continue and let the wizard finish out using only default values.
 After tackling git and TortoiseGit this one will seem like cake.  [Install GitHub Desktop](https://help.github.com/desktop/guides/getting-started-with-github-desktop/installing-github-desktop/) and allow it to run through the setup wizard.
 
 ### Sublime 3<a id="install-sublime-3"></a>
-Though this is not technically a free program, it is free to evaluate ... forever.   It has some very powerful features that make it this projects go-to text editor.  If you really like it, you could also buy it :smile:
+Though this is not technically a free program, it is free to evaluate ... forever.   It has some very powerful features that make it this project's go-to text editor.  If you really like it, you could also buy it <sup>:smile:</sup>.
 
 ### Unity Hub<a id="install-unity-hub"></a>
-After you install Unity Hub requires that you sign in to use their product.  You can register for a free account by going to their [web page](https://www.unity3d.com) and clicking on the silhouette and then choosing "Create a Unity ID" button:
+After you install Unity Hub, you will be required to sign in order to use their product.  You can register for a free account by going to their [web page](https://www.unity3d.com) and clicking on the silhouette and then choosing "Create a Unity ID" button:
 
 ![alt text](./Images/Documentation/ENVIRONMENT.WIN10/environment.unity.register.png)
 
@@ -107,11 +107,11 @@ When the next prompt appears you will click the new button and then add for each
 
 After you have finished setting up the file paths you should click ok until you are back to the desktop and then have the computer reboot.
 
-### Create GPG ID<a id="configure-gpg-id"></a>
+### Create Your GPG ID<a id="configure-gpg-id"></a>
 
-> It is highly recommended that for the following configuration that you use some form of password storing application to manage all the sensitive data you are about to create.  We have had experience with [KeePass](https://keepass.info/) but you are free to use any that you are familiar with.
+> It is highly recommended that for the following configuration that you use some form of password storing application to manage all the sensitive data you are about to create.  We have had experience with [KeePass](https://keepass.info/) but are free to use whatever you are familiar with.
 
-One of the requirements for this projects is that all commits are "verified" by a GPG key.  To start this we will right click on some open spot on the desktop and select "Git Bash Here".  With that prompt open you can follow the official [GitHub Instructions](https://help.github.com/articles/generating-a-new-gpg-key/), however, there is one caveat:
+One of the requirements for this projects is that all commits are "verified" by a GPG key.  To start this, we will right click on some open spot on the desktop and select "Git Bash Here".  With that prompt open you can follow the official [GitHub Instructions](https://help.github.com/articles/generating-a-new-gpg-key/), however, there is one caveat:
 
 When the article tells you to type:
 
