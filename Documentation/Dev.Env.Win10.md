@@ -35,35 +35,35 @@ You will need to download the following programs:
 ### TortoiseGit Part 1<a id="install-tortoisegit-part-1"></a>
 You will start by installing TortioseGit and choosing the default options until you get to the end of the installation:
 
-![alt text](./Images/Documentation/ENVIRONMENT.WIN10/environment.tort.wizardend.png)
+![alt text](./Images/Documentation/Dev.Env.Win10/environment.tort.wizardend.png)
 
 Before you click "Finish" make sure that the check box for "Run first start wizard" is selected, like in the image above, then click finish.
 
 You will again select the default options until you get to where it asks you for the path to the git installation:
 
-![alt text](./Images/Documentation/ENVIRONMENT.WIN10/environment.tort.gitpath.png)
+![alt text](./Images/Documentation/Dev.Env.Win10/environment.tort.gitpath.png)
 
 At this point we can go no further with TortoiseGit, so we'll move the window for it off to the side, and start the next installation.
 
 ### Git<a id="install-git"></a>
 Next you will install Git and, like before, we will allow it to use the default options.  You also will want to make sure that it installs to the location showing on the TortoiseGit Wizard screen (the default).  Continue with the defaults until it asks you about the console:
 
-![alt text](./Images/Documentation/ENVIRONMENT.WIN10/environment.gitbash.png)
+![alt text](./Images/Documentation/Dev.Env.Win10/environment.gitbash.png)
 
 where you will choose to use "Git Bash" only and not the windows command prompt.  Next it will ask you what method to use for authentication and we will use Plink provided by TortoiseGit:
 
-![alt text](./Images/Documentation/ENVIRONMENT.WIN10/environment.git.plink.png)
+![alt text](./Images/Documentation/Dev.Env.Win10/environment.git.plink.png)
 
 once that is selected you will allow the install wizard to finish out using default values.
 
 ### TortoiseGit Part 2<a id="install-tortoisegit-part-2"></a>
 Now that you have Git installed we can return to our partially configured TortoiseGit and click the "Check Now" button.  If it looks like the below then you can click next to continue with the wizard:
 
-![alt text](./Images/Documentation/ENVIRONMENT.WIN10/environment.tort.gitpath2.png)
+![alt text](./Images/Documentation/Dev.Env.Win10/environment.tort.gitpath2.png)
 
 When it prompts you for your information, provide it your GitHub user-name and email address:
 
-![alt text](./Images/Documentation/ENVIRONMENT.WIN10/environment.tort.userinfo.png)
+![alt text](./Images/Documentation/Dev.Env.Win10/environment.tort.userinfo.png)
 
 You will continue and let the wizard finish out using only default values.
 
@@ -76,7 +76,7 @@ Though this is not technically a free program, it is free to evaluate ... foreve
 ### Unity Hub<a id="install-unity-hub"></a>
 After you install Unity Hub, you will be required to sign in order to use their product.  You can register for a free account by going to their [web page](https://www.unity3d.com) and clicking on the silhouette and then choosing "Create a Unity ID" button:
 
-![alt text](./Images/Documentation/ENVIRONMENT.WIN10/environment.unity.register.png)
+![alt text](./Images/Documentation/Dev.Env.Win10/environment.unity.register.png)
 
 ## Configuration<a id="configuration"></a>
 
@@ -88,22 +88,23 @@ First we will tell Git that we would like it to use Sublime 3 for our text edito
 
 Next we will need to setup the application paths.  Start by hitting the windows key and then typing "Advanced System Settings" and choosing it from the list:
 
-![alt text](./Images/Documentation/ENVIRONMENT.WIN10/environment.git.path1.png)
+![alt text](./Images/Documentation/Dev.Env.Win10/environment.git.path1.png)
 
 Then choose "Environmental Variables":
 
-![alt text](./Images/Documentation/ENVIRONMENT.WIN10/environment.git.path2.png)
+![alt text](./Images/Documentation/Dev.Env.Win10/environment.git.path2.png)
 
 Then you will want to choose the lower "Path" variable and hit the "Edit" button:
 
-![alt text](./Images/Documentation/ENVIRONMENT.WIN10/environment.git.path3.png)
+![alt text](./Images/Documentation/Dev.Env.Win10/environment.git.path3.png)
 
 When the next prompt appears you will click the new button and then add for each of the two paths:
 
 * C:\Program Files\Git\bin\git.exe
 * C:\Program Files\Git\cmd
 
-![alt text](./Images/Documentation/ENVIRONMENT.WIN10/environment.git.path4.png)
+![alt text](./Images/Documentation/Dev.Env.Win10/environment.git.path4.png)
+
 
 After you have finished setting up the file paths you should click ok until you are back to the desktop and then have the computer reboot.
 
@@ -127,18 +128,18 @@ Once complete, follow the instructions for adding that GPG Key to your [GitHub A
 
 Once we have the GPG key create and installed on GitHub we will want to tell TortoisGit to use the key we have created.  Right click again on an open spot on the desktop but this time select "TortoiseGit > settings".  When the settings open, you are free to dismiss their hierarchical disclaimer, then find "Git" on the left and click it and then click the "Edit global .gitconfig" button:
 
-![alt text](./Images/Documentation/ENVIRONMENT.WIN10/environment.tort.global.png)
+![alt text](./Images/Documentation/Dev.Env.Win10/environment.tort.global.png)
 
 Once the editor loads make sure that the following is in your global configuration.  You will of course want to use your own GitHub account settings and GPG ID (signingkey). Not all variables will be present so some will have to be added:
 
 >* [commit]<br/>
->	* gpgsign = true<br/>
+>   * gpgsign = true<br/>
 >* [user]<br/>
->	* name = github.username<br/>
->	* email = github.email<br/>
->	* signingkey = github.gpgid<br/>
+>   * name = github.username<br/>
+>   * email = github.email<br/>
+>   * signingkey = github.gpgid<br/>
 
-![alt text](./Images/Documentation/ENVIRONMENT.WIN10/environment.tort.globaledit.png)
+![alt text](./Images/Documentation/Dev.Env.Win10/environment.tort.globaledit.png)
 
 ## Verification<a id="verification"></a>
 
@@ -149,7 +150,7 @@ First lets verify that we can call git from anywhere.  Hit the windows key, type
 
 The command prompt should then print the version of git you have installed:
 
-![alt text](./Images/Documentation/ENVIRONMENT.WIN10/environment.verify.git.png)
+![alt text](./Images/Documentation/Dev.Env.Win10/environment.verify.git.png)
 
 ### TortoisGit/GitHub Desktop<a id="verify-tort-github"></a>
 The best way to test these applications is to fork a project and start trying to manipulate your fork.  TortoiseGit is very powerful front end, however, for most tasks GitHub desktop is more than adequate.  The choice of which to use will come down to personal preference and how you use Git.  Feel free to experiment.
