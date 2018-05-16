@@ -5,20 +5,22 @@
 Open-Space-Game is a mix genre game set in an open universe.  The goal of this project is to create a fully immersive game that spans from the surface of planets to the outer reaches of space.
 
 ## Getting Started
+* [Installation Guide](#installing) - How to install to your local system
 * [Getting Information](#how-to-get-information) - Where the documentation can be found
 * [Support Questions](#how-to-open-a-support-question) - Check to see if any one else has had the same question.
 * [Doxygen](https://www.enterlucent.org/open-space-game-sandbox/Documentation/Doxygen/html/index.html) - Documentation for Programmers <!-- CHANGE THIS IN PRODUCTION -->
 * [Discord](https://discord.gg/zk3NZEc) - There is a project  chat server if you'd like to join it
 * [Site Mention](#how-to-request-site-mention) - Do something open-space-game related and would like for us to link to it?
 
-## Prerequisites
-1. Download and Install the [UnityHub](https://unity3d.com/get-unity/download)
-
 ## Installing
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
+### Prerequisites
+1. Download and Install the [Unity Hub](https://unity3d.com/get-unity/download)
+
+### Installation
 1. [Clone](https://help.github.com/articles/cloning-a-repository/) a copy of the repository to your local system
-2. Launch UnityHub and "Open" the directory you cloned in step 1.
+2. Launch Unity Hub and "Open" the directory you cloned in step 1.
 
 <img src="/Documentation/Images/README/unityhub.open.png" alt="Unity Hub 0.16.0" class="inline"/>
 
