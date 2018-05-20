@@ -65,7 +65,7 @@ If you have created something that you would like to see linked on our [GitHub P
 * If the submission is accepted you will be notified via your Issue when it's been completed.
 
 ## Contributing
-Please read [CONTRIBUTING](CONTRIBUTING.md) for details on submitting work to the project and our [code of conduct](.github/CODE_OF_CONDUCT.md).
+Please read [CONTRIBUTING](CONTRIBUTING.md) for details on submitting work to the project, our [Design Documents](Documentation/Design.md) and our [code of conduct](.github/CODE_OF_CONDUCT.md).
 
 ## Authors
 * **Michael Wigley** - *Programming* - [mdwigley](https://github.com/mdwigley)
