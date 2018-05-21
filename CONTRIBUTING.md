@@ -167,6 +167,7 @@ Often, these skilled people come after a large part of the functionality of the 
     * Make sure to [keep your forks in sync](https://help.github.com/articles/syncing-a-fork/) with the original repository
     * If you find that you need help with implementation, ask to have the "Help Wanted" label added to the issue as well as seeking others on the [Discord](https://discord.gg/zk3NZEc) server
 5. When finished, submit a [Pull Request](https://help.github.com/articles/about-pull-requests/) that includes just the changes in the Issue.
+    * Please title the pull request with name of your branch
     * Others may ask questions or request changes so make sure to check back, or enable the notification options!
 6. The [Pull Request](https://help.github.com/articles/about-pull-requests/) will be reviewed and, if approved, will be merged.
     * If there is an Asset or Project Issue in conjunction with the Documentation Issue, the feature will not be moved to the master branch until all dependent parts have been completed.
@@ -205,6 +206,7 @@ Programmers are responsible for implementing the features presented by Game Desi
     * Comment your code with both code level and construct definitions
         * We use Doxygen for code level documentation
 6. When finished, submit a [Pull Request](https://help.github.com/articles/about-pull-requests/) that includes just the changes in the Issue.
+    * Please title the pull request with name of your branch
     * Others may ask questions or request changes so make sure to check back, or enable the notification options!
 7. The [Pull Request](https://help.github.com/articles/about-pull-requests/) will be reviewed and, if approved, will be merged.
     * If there is an Asset or Documentation Issue in conjunction with the Project Issue, the feature will not be moved to the master branch until all dependent parts have been completed.
@@ -234,6 +236,7 @@ The title Artist, in this respect, covers a wide array of potential contributors
     * If you find that you need help with implementation, ask to have the "Help Wanted" label added to the issue as well as seeking others on the [Discord](https://discord.gg/zk3NZEc) server
 6. Commit changes to your branch on the Asset repository (**not** the Studio repository)
 6. When finished, submit a [Pull Request](https://help.github.com/articles/about-pull-requests/) that includes just the changes in the Issue.
+    * Please title the pull request with name of your branch
     * Others may ask questions or request changes so make sure to check back, or enable the notification options!
 7. The [Pull Request](https://help.github.com/articles/about-pull-requests/) will be reviewed and, if approved, will be merged.
     * If there is an Project or Documentation Issue in conjunction with the Asset Issue, the feature will not be moved to the master branch until all dependent parts have been completed.
