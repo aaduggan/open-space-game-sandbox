@@ -67,6 +67,10 @@ If you have created something that you would like to see linked on our [GitHub P
 ## Contributing
 Please read [CONTRIBUTING](CONTRIBUTING.md) for details on submitting work to the project, our [Design Documents](Documentation/Design.md) and our [code of conduct](.github/CODE_OF_CONDUCT.md).
 
+You might also be interested in:
+* Dev Environments
+    * [Windows 10](Documentation/Dev.Env.Win10.md)
+
 ## Authors
 * **Michael Wigley** - *Programming* - [mdwigley](https://github.com/mdwigley)
 * **Ayla Duggan** - *Artist* - [aaduggan](https://github.com/aaduggan)
