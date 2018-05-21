@@ -8,6 +8,7 @@ This is the design document for the multi-genre, open-world, space adventure gam
 * [Game Overview](#game-overview)
     * [Philosophy](#philosophy)
     * [Common Questions](#common-questions)
+    * [Proposed Features](#proposed-features)
 * [Campaigns](#campaigns)
     * [Nothing at all like Asteroids](#campaign-001)
 
@@ -65,11 +66,41 @@ The player's focus is their own though the game should provide numerous activiti
 The focus and spirit of the project is what we think sets it apart: giving players a unique combination of activities, focusing on modification support and stability, and having no outside influence other than the community itself.
 
 
+# Proposed Features
+
+The game will be broken down into a number of extend-able events that will allow for game content and activities to be dynamically loaded.  Even with this level of dynamics there will be a central set of features that will include:
+
+* Map mode for viewing the universe and planetary surfaces
+    * Planetary Interaction
+        * Celestial Information
+        * Ground/Orbital Deployment
+            * Industry
+                * Mineral Extraction
+                * Resource Processing
+            * Transport Logistics
+            * Commerce & Entertainment
+            * Scanning Devices
+        * Craft Deployment
+    * Craft Course Plotting
+        * Observe other objects and their potential course
+* Game mode for interacting with the universe at large
+    * Character interaction with single or multiple control-able characters
+        * Locomotion
+        * Object Use
+        * AI Tasks
+    * Manual craft interaction
+        * Piloting
+        * Actions
+* Craft/Station/Facility modes
+    * Similar to Game mode but for specific conditions
+    * Linked to Game mode so internal actions can have exterior effect
+
+
 # Campaigns
 
 As previously mentioned, this project is going to broken down into Campaigns that will implement key features and technologies that will be expanded upon in future campaigns.
 
-## Campaign #1 : [Nothing at All Like Asteroids](Design.Campaign.001)<a id="campaign-001"></a>
+## Campaign #1 : [Nothing at All Like Asteroids](Design.Campaign.001.md)<a id="campaign-001"></a>
 
 The initial iteration of open-space-game that should set up the most foundational elements of the project including:
 
