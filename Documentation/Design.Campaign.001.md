@@ -3,6 +3,7 @@ _Open World, Open Space, Open Source :tm:_
 
 This is the design document for the first Campaign for the open-space-game project.  This initial Campaign is more for getting the foundation laid for features that will come later.  The end result of this Campaign should be a multi-player game where two groups fight for control of contested areas.
 
+
 # Table of Contents
 * [Feature Set](#feature-set)
   * [General Features](#general-features)
@@ -43,13 +44,13 @@ The following is a general overview of what a potential player can expect to fin
 
 ## Game-play
 
-* Players control a single drone ship, of three possible ship types, which they choose before they enter the war-zone.  The ships will be controlled using chemical engines and will follow physical rules ([Asteroids](https://en.wikipedia.org/wiki/Asteroids_(video_game))) versus arcade rules ([Galaga](https://en.wikipedia.org/wiki/Galaga)).
+* Players control a single drone ship, of three possible ship types, which they choose before they enter the war-zone.  The ships will be powered using chemical engines and will follow physical rules ([Asteroids](https://en.wikipedia.org/wiki/Asteroids_(video_game))) versus arcade rules ([Galaga](https://en.wikipedia.org/wiki/Galaga)).
 
 * Players earn credits by destroying opposing team ships who's payout is calculated by a minimum payment plus a bonus based on the player's rank.  NPC kills always payout the same pay, based on their AI tier.
 
-* Asteroids are interactive with ship weaponry, allowing the player to change the asteroids direction and/or break off pieces that can cause damage to other ships in the area.  Asteroids will "replenish" from the rest of the belt periodically.
+* Asteroid particles are interactive with ship weaponry, allowing the player to change their direction and/or break off additional pieces that can cause damage to other ships in the area.  Asteroid particles will "replenish" from the rest of the cloud periodically.
 
-* Asteroids are the focus of special harvesting events where Harvesters are sent out by both corporations to collect the ice from certain, adequately sized, asteroids for processing.   Players will be granted a credit payout for the total amount of ore that their side collects over the amount of the other team's harvester.   If both Harvesters return the same amount or both Harvesters are destroyed, there is no payout.
+* The three asteroid hulls are the focus of special harvesting events where Harvesters are sent out by both corporations to collect the resources from them for processing.   Players will be granted a credit payout for the total amount of ore that their side collects over the amount of the other team's harvester.   If both Harvesters return the same amount or both Harvesters are destroyed, there is no payout.
 
 * The server will keep track of useful information about the number of kills scored, the number of deaths and the total amount of game time played from which a ranking list will be created.  This statistic information will be made available in the settings screen of the pause menu.
 
@@ -60,14 +61,11 @@ The following is a general overview of what a potential player can expect to fin
 * Ships use fuel and ammunition for locomotion and attacking respectively.  The player will be given a warning at various consumption levels and will have to return to their team's base in order to restock.  Players will need to be mindful not to get stuck out in the middle of space without fuel, as only the destruction of their ship will allow them to rejoin the game.
 
 
-
 # The Game World
 
 The player is set in the near future of space exploration where resource accusation is little different than in the "Wild West" of the American 19th century.  Set in the remains of an asteroid that was striped and broken by a larger mining operation, the player is teamed with others to fight over the last of the remaining resources.
 
 ![alt text](Images/Documentation/Design.Campaign.001/map.concept.003.png "'Map Concept Art 003' by 'aaduggan' copyright 2018")
-
-Using advanced weaponry, various team and solo combat tactics, and even using the environment itself against one another, the player is thrust into a fast-paced, cutthroat, combat theater where their skills will be put to the test.
 
 ### Multiple Ship Types
 
@@ -89,7 +87,7 @@ The game will offer three ships types for a player to choose from:
     * Electronic Surveillance and Jamming Equipment
         * This craft may only be optically detected
     * Fastest ship in the game
-* [Harvester](https://en.wikipedia.org/wiki/Factory_ship) - These specialized ships are responsible for collecting ice and keeping it as a pressurized metallic soup of hydrogen and oxygen atoms ([Ice Phases](https://en.wikipedia.org/wiki/Ice#Phases)).
+* [Harvester](https://en.wikipedia.org/wiki/Factory_ship) - These specialized ships are responsible for collecting resources from the asteroid reminisce.
     * Moderately armored
     * Autonomous Gatling Style, High RPM, Fixed Position Rail Guns
     * Same movement speed as a Corvette unloaded, movement like a Dreadnought when loaded
@@ -98,8 +96,8 @@ The game will offer three ships types for a player to choose from:
 
 The asteroids found within the cloud are interactive with the weaponry of some of the ships in the game allowing the player to use them as a part of their combat strategy:
 
-* Torpedo - Corvette torpedoes can be used to break apart large asteroids or pulverize smaller ones into dust.
-* Heavy Guns - Guns from the Dreadnought and the Corvette can be used to push asteroids around to change their direction and velocity.
+* Torpedo - Corvette torpedoes can be used to break apart larger asteroid particles or pulverize smaller ones into dust.
+* Heavy Guns - Guns from the Dreadnought and the Corvette can be used to push asteroid particles around to change their direction and velocity.
 
 Asteroids will follow the same physical model as the ships and will have inertia which will cause them to deal massive damage to the hull of any unfortunate ship to collide with one of them at speed.
 
@@ -108,15 +106,15 @@ Asteroids will follow the same physical model as the ships and will have inertia
 Just like in the real world, things in the game use other things to get work done.  Ships have chemical engines and thus require fuel, guns require ammunition to fire and all ships require electricity to power their vital equipment.
 
 Battery Power:
-* Corvettes and Sentinels are unable to generate power on their own (Dreadnought class vessels are equipped with nuclear power plants) and are required to get it directly from the sun or having it microwave transfered from a Dreadnought or Station.
-    * A Station can transfer to an unlimited number of ships
+* Corvettes and Sentinels are unable to generate power on their own (Dreadnought class vessels are equipped with nuclear power plants) and are required to get it directly from the sun or having it microwave transfered from a Dreadnought or Home Ships.
+    * A Home Ship can transfer to an unlimited number of ships
     * A Dreadnought can transfer to up to 5 ships starting with those with the lowest battery level.
 
 Ammunition:
-* All ships require ammunition for their weapons that can be picked up from the player's home station.
+* All ships require ammunition for their weapons that can be picked up from the player's home ship.
 
 Fuel:
-* All ships require fuel to move from place to place.  A player must be careful to not use so much fuel that they can no longer make it back to a station to refuel.
+* All ships require fuel to move from place to place.  A player must be careful to not use so much fuel that they can no longer make it back to a home ship to refuel.
     * Dreadnought - Slow moving but have the largest fuel tanks of the three ships.
     * Corvette - Faster than the Dreadnought but a much reduced fuel tank.
     * Sentinel - Fastest and most efficient engines in the game but has the least amount of fuel storage.
@@ -143,7 +141,7 @@ The game will have one game area that is positioned in the broken reminisce of a
 ![alt text](Images/Documentation/Design.Campaign.001/map.concept.004.png "'Map Concept Art 001' by 'aaduggan' copyright 2018")
 
 Harvest-able Asteroids:
-* Asteroids large enough for the Harvesters to collect meaningful amount of water.  These objects show up infrequently but when do offer an opportunity for a huge corporate payout.
+* Asteroids large enough for the Harvesters to collect meaningful amount of resources.  These objects are static and offer an opportunity for a huge corporate payouts.
 
 Home Ships:
 * Each team has a home ship that is located on opposing ends of the game area
@@ -174,7 +172,7 @@ The game map is divided between three parts of a destroyed larger asteroid body 
 
 ### Randomly Generated Asteroid Clouds
 
-At various points in the map, parts of the larger asteroid bodies have broken off and have drifted away.   Though small compared to the original body, they represent quite deadly obstacles to players of varying degree.
+At various points in the map, parts of the larger asteroid bodies have broken off and have drifted away.   Though small compared to the original body, they represent obstacles of varying degree to player and NPC ships.
 
 ### Hard Map Boundaries
 
