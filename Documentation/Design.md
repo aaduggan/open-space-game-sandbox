@@ -68,7 +68,7 @@ The focus and spirit of the project is what we think sets it apart: giving playe
 
 # Proposed Features
 
-The game will be broken down into a number of extend-able events that will allow for game content and activities to be dynamically loaded.  Even with this level of dynamics there will be a central set of features that will include:
+Open-Space-Game will be broken down into a number of extend-able events that will allow for game content and activities to be dynamically loaded.  Even with this level of dynamics there will be a central set of features that include:
 
 * Map mode for viewing the universe and planetary surfaces
     * Planetary Interaction

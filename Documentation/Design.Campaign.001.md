@@ -63,9 +63,9 @@ The following is a general overview of what a potential player can expect to fin
 
 # The Game World
 
-The player is set in the near future of space exploration where resource accusation is little different than in the "Wild West" of the American 19th century.  Set in the [Rings of Saturn](https://en.wikipedia.org/wiki/Rings_of_Saturn#A_Ring), two opposing corporations fight for the ability to mine water from the asteroids found there.
+The player is set in the near future of space exploration where resource accusation is little different than in the "Wild West" of the American 19th century.  Set in the remains of an asteroid that was striped and broken by a larger mining operation, the player is teamed with others to fight over the last of the remaining resources.
 
-![alt text](Images/Documentation/Design.Campaign.001/map.concept.002.png "'Map Concept Art 002' by 'mdwigley' copyright 2018")
+![alt text](Images/Documentation/Design.Campaign.001/map.concept.003.png "'Map Concept Art 003' by 'aaduggan' copyright 2018")
 
 Using advanced weaponry, various team and solo combat tactics, and even using the environment itself against one another, the player is thrust into a fast-paced, cutthroat, combat theater where their skills will be put to the test.
 
@@ -73,7 +73,7 @@ Using advanced weaponry, various team and solo combat tactics, and even using th
 
 The game will offer three ships types for a player to choose from:
 
-* [Dreadnought](https://en.wikipedia.org/wiki/Dreadnought) - Large, slow and armored to the gills.  This ship is meant to pack a real punch against enemy ship positions and any asteroids that might be in the area.
+* [Dreadnought](https://en.wikipedia.org/wiki/Dreadnought) - Large, slow and armored.  This ship is meant to pack a real punch against enemy ship positions and any asteroids that might be in the area.
     * Heavily Armored
     * Large Turret Mounted Rail Cannons
     * 5 Microwave Power Emitters
@@ -96,12 +96,7 @@ The game will offer three ships types for a player to choose from:
 
 ### Interactive Environment
 
-![alt text](Images/Documentation/Design.Campaign.001/Saturn_Ring_Material.jpg "'Saturn Ring Material' by 'NASA/JPL/University of Colorado' public domain")
-
->The difference in orbital motion between the inner and outer parts of the rings means that they are not a solid sheet of matter, for they would be torn apart by the differential motion. The rings are instead made up of vast numbers of particles, each one in its own orbit around Saturn, like a tiny moon. Billions of ring particles revolve about the planet. They have been flattened and spread out to a thin, wide disk as the result of collisions between particles.<br/>
->["NASA's Cosmos" Professor Kenneth R. Lang, Tufts University Copyright 2010](https://ase.tufts.edu/cosmos/view_chapter.asp?id=10&page=4)
-
-The asteroids found within the ring are interactive with the weaponry of some of the ships in the game allowing the player to use them as a part of their combat strategy:
+The asteroids found within the cloud are interactive with the weaponry of some of the ships in the game allowing the player to use them as a part of their combat strategy:
 
 * Torpedo - Corvette torpedoes can be used to break apart large asteroids or pulverize smaller ones into dust.
 * Heavy Guns - Guns from the Dreadnought and the Corvette can be used to push asteroids around to change their direction and velocity.
@@ -141,30 +136,21 @@ In addition to the personal scores sheets, this data should be used to compile a
 
 ## The Physical World
 
-The game will have one game area that is positioned in a small portion of the rings of Saturn.  The game area consists of floating asteroids lazily jostling about within their orbit while the massive and impressive Saturn looms in the background.
+The game will have one game area that is positioned in the broken reminisce of a larger asteroid.  The game area consists of floating asteroid particles lazily jostling about within their solar orbit while the massive fractured remains looms in the background.
 
 ### Key Locations
 
-![alt text](Images/Documentation/Design.Campaign.001/map.concept.001.png "'Map Concept Art 001' by 'mdwigley' copyright 2018")
+![alt text](Images/Documentation/Design.Campaign.001/map.concept.004.png "'Map Concept Art 001' by 'aaduggan' copyright 2018")
 
 Harvest-able Asteroids:
 * Asteroids large enough for the Harvesters to collect meaningful amount of water.  These objects show up infrequently but when do offer an opportunity for a huge corporate payout.
 
-Stations:
-* Each team has a base station that is located on opposing ends of the game area
+Home Ships:
+* Each team has a home ship that is located on opposing ends of the game area
 
 ### Scale
 
-The game objects should be 1 unit per meter and be at a 1:1 scale with known objects sizes of ring objects.
-
-### Time
-
-Though there is no day or night cycle, there will be a period of darkness when the portion of the ring that the players are on goes into the shadow of Saturn:
-
-> The inner parts of the rings move around Saturn faster than the outer parts, all in accordance with Kepler’s third law for small objects revolving about a massive, larger one. They orbit the planet with periods ranging from 5.8 hours for the inner edge of the C ring, to 14.3 hours for the outer edge of the more distant A ring. Since Saturn spins about its axis with a period of 10.6562 hours, the inner parts of the main rings orbit at a faster speed than the planet rotates, and the outer parts at a slower speed.<br/>
->["NASA's Cosmos" Professor Kenneth R. Lang, Tufts University Copyright 2010](https://ase.tufts.edu/cosmos/view_chapter.asp?id=10&page=4)
-
-The light source will also change as the sun's relative position to the ring location changes angle.
+The game objects should be 1 unit per meter and be at a 1:1 scale with known objects sizes of belt objects.
 
 ## Camera
 
@@ -178,18 +164,17 @@ In detached camera mode the camera should move around the game area using the AS
 
 In this camera mode the camera will follow the ship as the player pilots it.  Within this mode there should be two sub-modes:
 
-* Chase - This will follow the ship around with the forward movement vector traveling through the ship
-* Locked - Locks the camera in one position relative to the ship as it moves
+* Chase - This will follow the ship around with the forward movement vector traveling through the ship and the top of the ship being the up vector.
 * Free - The camera locks to the ship but the player may orbit the camera in any direction around the ship
 
 
 # The World Layout
 
-The game map is divided between two partial ring divides where the stations are positioned (presumably cleared about by the stations themselves) and a center region of randomly generated ice particles.
+The game map is divided between three parts of a destroyed larger asteroid body with two home ships positioned at opposing ends of the map.
 
-### Randomly Generated Ice Field
+### Randomly Generated Asteroid Clouds
 
-The ice field can be thought of as a very sow moving river of variously sized ice particles ranging from dust to those the size of a large house.  Harvest-able asteroids are the exception rather than the rule but with so much material available they still appear relatively often.
+At various points in the map, parts of the larger asteroid bodies have broken off and have drifted away.   Though small compared to the original body, they represent quite deadly obstacles to players of varying degree.
 
 ### Hard Map Boundaries
 
@@ -198,7 +183,7 @@ The map will have hard boundaries that outline the playable game area even thoug
 
 # Game Characters
 
-Game characters represent the player as a person living on the space station who has been commissioned to pilot their corporate drone ships in the protection and acquisition of ice resources from the Saturn ring system.
+Game characters represent the player as a person living one of the home ships who has been commissioned to pilot their corporate drones in the protection and acquisition of resources from the asteroid reminisce.
 
 ## Creating a Character
 
