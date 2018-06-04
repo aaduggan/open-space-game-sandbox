@@ -123,7 +123,7 @@ Fuel:
 ### Strategic Map Mode
 
 A separate map mode that will allow the player to:
-* Plot courses
+* Plot courses using maneuverer nodes
 * View enemy and friendly craft positions by their energy signatures
 * See shared intelligence information from the rest of the team
 
@@ -155,16 +155,17 @@ The game objects should be 1 unit per meter and be at a 1:1 scale with known obj
 
 There should be two primary camera modes but either should support zooming as well as their specific features.
 
-### Detached Camera
-
-In detached camera mode the camera should move around the game area using the ASDW keys for movement.  The player will not be able to see anything beyond what is being optically or electronically tracked by themselves or someone on their team.
-
-### Attached Camera
+### Game Camera
 
 In this camera mode the camera will follow the ship as the player pilots it.  Within this mode there should be two sub-modes:
 
 * Chase - This will follow the ship around with the forward movement vector traveling through the ship and the top of the ship being the up vector.
 * Free - The camera locks to the ship but the player may orbit the camera in any direction around the ship
+* First Person - This camera positions itself at the front of the craft and points at the forward vector
+
+### Map Camera
+
+In map mode the camera should move around the game area using the ASDW keys for movement.  The player will not be able to see anything beyond what is being optically or electronically tracked by themselves or someone on their team.
 
 
 # The World Layout
@@ -229,6 +230,7 @@ Instead of having funny little tags talking about what it is doing, we will give
 
 ## Map Interface
 
+![alt text](Images/Documentation/Design.Campaign.001/ui.map.concept.001.png "'UI Map Screen Concept Art 001' by 'mdwigley' copyright 2018")
 
 # Musical Scores and Sound Effects
 
