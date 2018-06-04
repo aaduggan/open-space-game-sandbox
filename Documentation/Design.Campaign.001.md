@@ -64,9 +64,9 @@ The following is a general overview of what a potential player can expect to fin
 
 # The Game World
 
-The player is set in the near future of space exploration where resource accusation is little different than in the "Wild West" of the American 19th century.  Set in the remains of an asteroid that was striped and broken by a larger mining operation, the player is teamed with others to fight over the last of the remaining resources.
-
 ![alt text](Images/Documentation/Design.Campaign.001/map.concept.003.png "'Map Concept Art 003' by 'aaduggan' copyright 2018")
+
+The player is set in the near future of space exploration where resource accusation is little different than in the "Wild West" of the American 19th century.  Set in the remains of an asteroid that was striped and broken by a larger mining operation, the player is teamed with others to fight over the last of the remaining resources.
 
 ### Multiple Ship Types
 
