@@ -9,12 +9,10 @@ This is the design document for the first Campaign for the open-space-game proje
   * [General Features](#general-features)
   * [Multi-player Features](#multi-player-features)
   * [Editor](#editor)
-  * [Game play](#game-play)
-* [The Game World](#the-game-world)
-  * [The Physical World](#the-physical-world)
-  * [Camera](#camera)
-* [The World Layout](#the-world-layout)
-* [Game Characters](#game-characters)
+* [Game Play](#game-play)
+* [Game World](#game-world)
+* [Map](#map)
+* [Characters](#characters)
   * [Creating a Character](#creating-a-character)
 * [User Interface](#user-interface)
 * [Musical Scores and Sound Effects](#musical-scores-and-sound-effects)
@@ -30,6 +28,7 @@ The following is a general overview of what a potential player can expect to fin
 
 * 3D Graphics
 * Real-time physics
+* Basic plug-in framework
 * Basic modding infrastructure
 
 ## Multi-player Features
@@ -41,9 +40,9 @@ The following is a general overview of what a potential player can expect to fin
 ## Editor
 
 * Allow additional assets to be created
-* Easy to Use
 
-## Game-play
+
+# Game-play
 
 * Players control a single drone ship, of three possible ship types, which they choose before they enter the war-zone.  The ships will be powered using chemical engines and will follow physical rules ([Asteroids](https://en.wikipedia.org/wiki/Asteroids_(video_game))) versus arcade rules ([Galaga](https://en.wikipedia.org/wiki/Galaga)).
 
@@ -62,13 +61,13 @@ The following is a general overview of what a potential player can expect to fin
 * Ships use fuel and ammunition for locomotion and attacking respectively.  The player will be given a warning at various consumption levels and will have to return to their team's base in order to restock.  Players will need to be mindful not to get stuck out in the middle of space without fuel, as only the destruction of their ship will allow them to rejoin the game.
 
 
-# The Game World
+# Game World
 
 ![alt text](Images/Documentation/Design.Campaign.001/map.concept.003.png "'Map Concept Art 003' by 'aaduggan' copyright 2018")
 
-The player is set in the near future of space exploration where resource accusation is little different than in the "Wild West" of the American 19th century.  Set in the remains of an asteroid that was striped and broken by a larger mining operation, the player is teamed with others to fight over the last of the remaining resources.
+The player is set in the near future of space exploration where resource acquisition is little different than in the "Wild West" of the American 19th century.  As an employee of a minor mining operation, the player is teamed with others to fight over the reminisce of an asteroid that was striped and broken by a larger mining operation.
 
-### Multiple Ship Types
+## Multiple Ship Types
 
 The game will offer three ships types for a player to choose from:
 
@@ -93,16 +92,16 @@ The game will offer three ships types for a player to choose from:
     * Autonomous Gatling Style, High RPM, Fixed Position Rail Guns
     * Same movement speed as a Corvette unloaded, movement like a Dreadnought when loaded
 
-### Interactive Environment
+## Interactive Environment
 
-The asteroids found within the cloud are interactive with the weaponry of some of the ships in the game allowing the player to use them as a part of their combat strategy:
+The asteroids found within the reminisce cloud are interactive with the weaponry of both the Dreadnought and the Corvette; allowing those ship types to use them as a part of their combat strategy:
 
 * Torpedo - Corvette torpedoes can be used to break apart larger asteroid particles or pulverize smaller ones into dust.
 * Heavy Guns - Guns from the Dreadnought and the Corvette can be used to push asteroid particles around to change their direction and velocity.
 
 Asteroids will follow the same physical model as the ships and will have inertia which will cause them to deal massive damage to the hull of any unfortunate ship to collide with one of them at speed.
 
-### Resource Management
+## Resource Management
 
 Just like in the real world, things in the game use other things to get work done.  Ships have chemical engines and thus require fuel, guns require ammunition to fire and all ships require electricity to power their vital equipment.
 
@@ -120,68 +119,56 @@ Fuel:
     * Corvette - Faster than the Dreadnought but a much reduced fuel tank.
     * Sentinel - Fastest and most efficient engines in the game but has the least amount of fuel storage.
 
-### Strategic Map Mode
+## Strategic Map Mode
 
 A separate map mode that will allow the player to:
 * Plot courses using maneuverer nodes
 * View enemy and friendly craft positions by their energy signatures
 * See shared intelligence information from the rest of the team
 
-### Server Statistics
+## Server Statistics
 
 When the player creates an account on the server, the server will start to collect information about the kill/death ratios of the ships piloted by that player and the total amount of game time for each ship.  This information will be made available in the players pause menu.
 
 In addition to the personal scores sheets, this data should be used to compile a server ranking list which can also be selected from the game's pause menu.
 
-## The Physical World
+# Map
 
 The game will have one game area that is positioned in the broken reminisce of a larger asteroid.  The game area consists of floating asteroid particles lazily jostling about within their solar orbit while the massive fractured remains looms in the background.
 
-### Key Locations
+## Key Locations
 
 ![alt text](Images/Documentation/Design.Campaign.001/map.concept.004.png "'Map Concept Art 004' by 'aaduggan' copyright 2018")
 
-Harvest-able Asteroids:
-* Asteroids large enough for the Harvesters to collect meaningful amount of resources.  These objects are static and offer an opportunity for a huge corporate payouts.
+### Harvest-able Asteroids
+Asteroids large enough for the Harvesters to collect meaningful amount of resources.  These objects are static and offer an opportunity for a huge corporate payouts.
 
-Home Ships:
-* Each team has a home ship that is located on opposing ends of the game area
-
-### Scale
-
-The game objects should be 1 unit per meter and be at a 1:1 scale with known objects sizes of belt objects.
-
-## Camera
-
-There should be two primary camera modes but either should support zooming as well as their specific features.
-
-### Game Camera
-
-In this camera mode the camera will follow the ship as the player pilots it.  Within this mode there should be two sub-modes:
-
-* Chase - This will follow the ship around with the forward movement vector traveling through the ship and the top of the ship being the up vector.
-* Free - The camera locks to the ship but the player may orbit the camera in any direction around the ship
-* First Person - This camera positions itself at the front of the craft and points at the forward vector
-
-### Map Camera
-
-In map mode the camera should move around the game area using the ASDW keys for movement.  The player will not be able to see anything beyond what is being optically or electronically tracked by themselves or someone on their team.
-
-
-# The World Layout
-
-The game map is divided between three parts of a destroyed larger asteroid body with two home ships positioned at opposing ends of the map.
+### Home Ships
+Each team has a home ship that is located on opposing ends of the game area
 
 ### Randomly Generated Asteroid Clouds
 
-At various points in the map, parts of the larger asteroid bodies have broken off and have drifted away.   Though small compared to the original body, they represent obstacles of varying degree to player and NPC ships.
+At various points in the map, parts of the larger asteroid bodies have broken off and have drifted away.  Though small compared to the original body, they represent obstacles of varying degree to player and NPC ships.
 
 ### Hard Map Boundaries
 
+Due to the large amounts of data required for reliable communication with the drones they must operate in a relatively short range from the home ships.  The different sides would rather destroy their drones then turn one over to the other side.
+
 The map will have hard boundaries that outline the playable game area even though the graphical representation may extend further way.
 
+## Scale
 
-# Game Characters
+The game objects should be 1 unit per meter and be at a 1:1 scale with known object sizes of belt objects.
+
+
+
+
+
+
+
+
+
+# Characters
 
 Game characters represent the player as a person living one of the home ships who has been commissioned to pilot their corporate drones in the protection and acquisition of resources from the asteroid reminisce.
 
@@ -228,9 +215,21 @@ Instead of having funny little tags talking about what it is doing, we will give
 
 ![alt text](Images/Documentation/Design.Campaign.001/ui.main.concept.001.png "'UI Game Window Concept Art 001' by 'mdwigley' copyright 2018")
 
+### Game Camera
+
+In this camera mode the camera will follow the ship as the player pilots it.  Within this mode there should be two sub-modes:
+
+* Chase - This will follow the ship around with the forward movement vector traveling through the ship and the top of the ship being the up vector.
+* Free - The camera locks to the ship but the player may orbit the camera in any direction around the ship
+* First Person - This camera positions itself at the front of the craft and points at the forward vector
+
 ## Map Interface
 
 ![alt text](Images/Documentation/Design.Campaign.001/ui.map.concept.001.png "'UI Map Screen Concept Art 001' by 'mdwigley' copyright 2018")
+
+### Map Camera
+
+In map mode the camera should be free form and should allow movement by using the ASDW keys for movement.  The player will not be able to see anything beyond what is being optically or electronically tracked by themselves or someone on their team.
 
 # Musical Scores and Sound Effects
 
