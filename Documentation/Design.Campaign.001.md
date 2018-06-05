@@ -105,15 +105,15 @@ Asteroids will follow the same physical model as the ships and will have inertia
 
 Just like in the real world, things in the game use other things to get work done.  Ships have chemical engines and thus require fuel, guns require ammunition to fire and all ships require electricity to power their vital equipment.
 
-Battery Power:
+### Battery Power
 * Corvettes and Sentinels are unable to generate power on their own (Dreadnought class vessels are equipped with nuclear power plants) and are required to get it directly from the sun or having it microwave transfered from a Dreadnought or Home Ships.
     * A Home Ship can transfer to an unlimited number of ships
     * A Dreadnought can transfer to up to 5 ships starting with those with the lowest battery level.
 
-Ammunition:
+### Ammunition
 * All ships require ammunition for their weapons that can be picked up from the player's home ship.
 
-Fuel:
+### Fuel
 * All ships require fuel to move from place to place.  A player must be careful to not use so much fuel that they can no longer make it back to a home ship to refuel.
     * Dreadnought - Slow moving but have the largest fuel tanks of the three ships.
     * Corvette - Faster than the Dreadnought but a much reduced fuel tank.
