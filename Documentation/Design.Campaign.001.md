@@ -156,10 +156,33 @@ When the player creates an account on the server, the server will start to colle
 
 In addition to the personal scores sheets, this data should be used to compile a server ranking list which can also be selected from the game's pause menu.
 
+<<<<<<< HEAD
 ## Combat Radio Cone
 
 Due to the large amounts of data required for reliable communication with the drones they must operate in a relatively short range and in line of sight of the home ship or another ship on the same team.
 
+=======
+## Key Locations
+
+![alt text](Images/Documentation/Design.Campaign.001/map.concept.004.png "'Map Concept Art 004' by 'aaduggan' copyright 2018")
+
+The game will have one game area that is positioned in the broken reminisce of a larger asteroid.  The game area consists of floating asteroid particles lazily jostling about within their solar orbit while the massive fractured remains looms in the background.
+
+### Harvest-able Asteroids
+Asteroids large enough for the Harvesters to collect meaningful amount of resources.  These objects are static and offer an opportunity for a huge corporate payouts.
+
+### Home Ships
+Each team has a home ship that is located on opposing ends of the game area
+
+### Randomly Generated Asteroid Clouds
+
+At various points in the map, parts of the larger asteroid bodies have broken off and have drifted away.  Though small compared to the original body, they represent obstacles of varying degree to player and NPC ships.
+
+## Combat Radio Cone
+
+Due to the large amounts of data required for reliable communication with the drones they must operate in a relatively short range and in line of sight of the home ship or another ship on the same team.
+
+>>>>>>> 594e65f1ab47f7aa945a7a2c6858640f22da82f0
 The different sides would rather destroy their drones then turn one over to the other side.
 
 ## Scale
