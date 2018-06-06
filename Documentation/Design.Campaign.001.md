@@ -96,7 +96,7 @@ The game will offer three ships types for a player to choose from:
     * Fastest ship in the game
 * [Harvester](https://en.wikipedia.org/wiki/Factory_ship) - These specialized ships are responsible for collecting resources from the asteroid reminisce.
     * Moderately armored
-    * Autonomous Gatling Style, High RPM, Fixed Position Rail Guns
+    * Autonomous Gatling Style, High RPM, Turreted Rail Guns
     * Same movement speed as a Corvette unloaded, movement like a Dreadnought when loaded
 
 ## Resource Management
