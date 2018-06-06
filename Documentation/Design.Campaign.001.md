@@ -76,9 +76,9 @@ The player is set in the near future of space exploration where resource acquisi
 
 ## Key Locations
 
-![alt text](Images/Documentation/Design.Campaign.001/map.concept.004.png "'Map Concept Art 004' by 'aaduggan' copyright 2018")
-
 The game will have one game area that is positioned in the broken reminisce of a larger asteroid.  The game area consists of floating asteroid particles lazily jostling about within their solar orbit while the massive fractured remains looms in the background.
+
+![alt text](Images/Documentation/Design.Campaign.001/map.concept.004.png "'Map Concept Art 004' by 'aaduggan' copyright 2018")
 
 ### Harvest-able Asteroids
 Asteroids large enough for the Harvesters to collect meaningful amount of resources.  These objects are static and offer an opportunity for a huge corporate payouts.
