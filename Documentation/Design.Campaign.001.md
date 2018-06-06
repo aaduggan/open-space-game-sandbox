@@ -11,7 +11,14 @@ This is the design document for the first Campaign for the open-space-game proje
   * [Editor](#editor)
 * [Game Play](#game-play)
 * [Game World](#game-world)
-* [Map](#map)
+  * [Multiple Ship Types](#multiple-ship-types)
+  * [Interactive Environment](#interactive-environment)
+  * [Resource Management](#resource-management)
+  * [Strategic Map](#strategic-map)
+  * [Server Statistics](#server-statistics)
+  * [Key Locations](#key-locations)
+  * [Combat Radio Cone](#combat-radio-cone)
+  * [Scale](#scale)
 * [Characters](#characters)
   * [Creating a Character](#creating-a-character)
 * [User Interface](#user-interface)
@@ -42,7 +49,7 @@ The following is a general overview of what a potential player can expect to fin
 * Allow additional assets to be created
 
 
-# Game-play
+# Game-Play
 
 * Players control a single drone ship, of three possible ship types, which they choose before they enter the war-zone.  The ships will be powered using chemical engines and will follow physical rules ([Asteroids](https://en.wikipedia.org/wiki/Asteroids_(video_game))) versus arcade rules ([Galaga](https://en.wikipedia.org/wiki/Galaga)).
 
@@ -119,9 +126,10 @@ Just like in the real world, things in the game use other things to get work don
     * Corvette - Faster than the Dreadnought but a much reduced fuel tank.
     * Sentinel - Fastest and most efficient engines in the game but has the least amount of fuel storage.
 
-## Strategic Map Mode
+## Strategic Map
 
 A separate map mode that will allow the player to:
+
 * Plot courses using maneuverer nodes
 * View enemy and friendly craft positions by their energy signatures
 * See shared intelligence information from the rest of the team
@@ -132,13 +140,11 @@ When the player creates an account on the server, the server will start to colle
 
 In addition to the personal scores sheets, this data should be used to compile a server ranking list which can also be selected from the game's pause menu.
 
-# Map
-
-The game will have one game area that is positioned in the broken reminisce of a larger asteroid.  The game area consists of floating asteroid particles lazily jostling about within their solar orbit while the massive fractured remains looms in the background.
-
 ## Key Locations
 
 ![alt text](Images/Documentation/Design.Campaign.001/map.concept.004.png "'Map Concept Art 004' by 'aaduggan' copyright 2018")
+
+The game will have one game area that is positioned in the broken reminisce of a larger asteroid.  The game area consists of floating asteroid particles lazily jostling about within their solar orbit while the massive fractured remains looms in the background.
 
 ### Harvest-able Asteroids
 Asteroids large enough for the Harvesters to collect meaningful amount of resources.  These objects are static and offer an opportunity for a huge corporate payouts.
@@ -150,22 +156,15 @@ Each team has a home ship that is located on opposing ends of the game area
 
 At various points in the map, parts of the larger asteroid bodies have broken off and have drifted away.  Though small compared to the original body, they represent obstacles of varying degree to player and NPC ships.
 
-### Hard Map Boundaries
+## Combat Radio Cone
 
-Due to the large amounts of data required for reliable communication with the drones they must operate in a relatively short range from the home ships.  The different sides would rather destroy their drones then turn one over to the other side.
+Due to the large amounts of data required for reliable communication with the drones they must operate in a relatively short range and in line of sight of the home ship or another ship on the same team.
 
-The map will have hard boundaries that outline the playable game area even though the graphical representation may extend further way.
+The different sides would rather destroy their drones then turn one over to the other side.
 
 ## Scale
 
 The game objects should be 1 unit per meter and be at a 1:1 scale with known object sizes of belt objects.
-
-
-
-
-
-
-
 
 
 # Characters
@@ -226,6 +225,10 @@ In this camera mode the camera will follow the ship as the player pilots it.  Wi
 ## Map Interface
 
 ![alt text](Images/Documentation/Design.Campaign.001/ui.map.concept.001.png "'UI Map Screen Concept Art 001' by 'mdwigley' copyright 2018")
+
+### Maneuver Nodes
+
+
 
 ### Map Camera
 
