@@ -12,11 +12,11 @@ This is the design document for the first Campaign for the open-space-game proje
 * [Game Play](#game-play)
 * [Game World](#game-world)
   * [Multiple Ship Types](#multiple-ship-types)
+  * [Key Locations](#key-locations)
   * [Interactive Environment](#interactive-environment)
   * [Resource Management](#resource-management)
   * [Strategic Map](#strategic-map)
   * [Server Statistics](#server-statistics)
-  * [Key Locations](#key-locations)
   * [Combat Radio Cone](#combat-radio-cone)
   * [Scale](#scale)
 * [Characters](#characters)
@@ -74,22 +74,6 @@ The following is a general overview of what a potential player can expect to fin
 
 The player is set in the near future of space exploration where resource acquisition is little different than in the "Wild West" of the American 19th century.  As an employee of a minor mining operation, the player is teamed with others to fight over the reminisce of an asteroid that was striped and broken by a larger mining operation.
 
-## Key Locations
-
-The game will have one game area that is positioned in the broken reminisce of a larger asteroid.  The game area consists of floating asteroid particles lazily jostling about within their solar orbit while the massive fractured remains looms in the background.
-
-![alt text](Images/Documentation/Design.Campaign.001/map.concept.004.png "'Map Concept Art 004' by 'aaduggan' copyright 2018")
-
-### Harvest-able Asteroids
-Asteroids large enough for the Harvesters to collect meaningful amount of resources.  These objects are static and offer an opportunity for a huge corporate payouts.
-
-### Home Ships
-Each team has a home ship that is located on opposing ends of the game area
-
-### Randomly Generated Asteroid Clouds
-
-At various points in the map, parts of the larger asteroid bodies have broken off and have drifted away.  Though small compared to the original body, they represent obstacles of varying degree to player and NPC ships.
-
 ## Multiple Ship Types
 
 The game will offer three ships types for a player to choose from:
@@ -114,6 +98,22 @@ The game will offer three ships types for a player to choose from:
     * Moderately armored
     * Autonomous Gatling Style, High RPM, Fixed Position Rail Guns
     * Same movement speed as a Corvette unloaded, movement like a Dreadnought when loaded
+
+## Key Locations
+
+The game will have one game area that is positioned in the broken reminisce of a larger asteroid.  The game area consists of floating asteroid particles lazily jostling about within their solar orbit while the massive fractured remains looms in the background.
+
+![alt text](Images/Documentation/Design.Campaign.001/map.concept.004.png "'Map Concept Art 004' by 'aaduggan' copyright 2018")
+
+### Harvest-able Asteroids
+Asteroids large enough for the Harvesters to collect meaningful amount of resources.  These objects are static and offer an opportunity for a huge corporate payouts.
+
+### Home Ships
+Each team has a home ship that is located on opposing ends of the game area
+
+### Randomly Generated Asteroid Clouds
+
+At various points in the map, parts of the larger asteroid bodies have broken off and have drifted away.  Though small compared to the original body, they represent obstacles of varying degree to player and NPC ships.
 
 ## Interactive Environment
 
