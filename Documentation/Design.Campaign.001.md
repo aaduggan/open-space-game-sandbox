@@ -12,9 +12,9 @@ This is the design document for the first Campaign for the open-space-game proje
 * [Game Play](#game-play)
 * [Game World](#game-world)
   * [Multiple Ship Types](#multiple-ship-types)
+  * [Resource Management](#resource-management)
   * [Key Locations](#key-locations)
   * [Interactive Environment](#interactive-environment)
-  * [Resource Management](#resource-management)
   * [Strategic Map](#strategic-map)
   * [Server Statistics](#server-statistics)
   * [Combat Radio Cone](#combat-radio-cone)
@@ -99,6 +99,24 @@ The game will offer three ships types for a player to choose from:
     * Autonomous Gatling Style, High RPM, Fixed Position Rail Guns
     * Same movement speed as a Corvette unloaded, movement like a Dreadnought when loaded
 
+## Resource Management
+
+Just like in the real world, things in the game use other things to get work done.  Ships have chemical engines and thus require fuel, guns require ammunition to fire and all ships require electricity to power their vital equipment.
+
+### Battery Power
+* Corvettes and Sentinels are unable to generate power on their own (Dreadnought class vessels are equipped with nuclear power plants) and are required to get it directly from the sun or having it microwave transfered from a Dreadnought or Home Ships.
+    * A Home Ship can transfer to an unlimited number of ships
+    * A Dreadnought can transfer to up to 5 ships starting with those with the lowest battery level.
+
+### Ammunition
+* All ships require ammunition for their weapons that can be picked up from the player's home ship.
+
+### Fuel
+* All ships require fuel to move from place to place.  A player must be careful to not use so much fuel that they can no longer make it back to a home ship to refuel.
+    * Dreadnought - Slow moving but have the largest fuel tanks of the three ships.
+    * Corvette - Faster than the Dreadnought but a much reduced fuel tank.
+    * Sentinel - Fastest and most efficient engines in the game but has the least amount of fuel storage.
+
 ## Key Locations
 
 The game will have one game area that is positioned in the broken reminisce of a larger asteroid.  The game area consists of floating asteroid particles lazily jostling about within their solar orbit while the massive fractured remains looms in the background.
@@ -123,24 +141,6 @@ The asteroids found within the reminisce cloud are interactive with the weaponry
 * Heavy Guns - Guns from the Dreadnought and the Corvette can be used to push asteroid particles around to change their direction and velocity.
 
 Asteroids will follow the same physical model as the ships and will have inertia which will cause them to deal massive damage to the hull of any unfortunate ship to collide with one of them at speed.
-
-## Resource Management
-
-Just like in the real world, things in the game use other things to get work done.  Ships have chemical engines and thus require fuel, guns require ammunition to fire and all ships require electricity to power their vital equipment.
-
-### Battery Power
-* Corvettes and Sentinels are unable to generate power on their own (Dreadnought class vessels are equipped with nuclear power plants) and are required to get it directly from the sun or having it microwave transfered from a Dreadnought or Home Ships.
-    * A Home Ship can transfer to an unlimited number of ships
-    * A Dreadnought can transfer to up to 5 ships starting with those with the lowest battery level.
-
-### Ammunition
-* All ships require ammunition for their weapons that can be picked up from the player's home ship.
-
-### Fuel
-* All ships require fuel to move from place to place.  A player must be careful to not use so much fuel that they can no longer make it back to a home ship to refuel.
-    * Dreadnought - Slow moving but have the largest fuel tanks of the three ships.
-    * Corvette - Faster than the Dreadnought but a much reduced fuel tank.
-    * Sentinel - Fastest and most efficient engines in the game but has the least amount of fuel storage.
 
 ## Strategic Map
 
