@@ -13,11 +13,11 @@ This is the design document for the first Campaign for the open-space-game proje
 * [Game World](#game-world)
   * [Multiple Ship Types](#multiple-ship-types)
   * [Resource Management](#resource-management)
+  * [Combat Radio Cone](#combat-radio-cone)
   * [Key Locations](#key-locations)
   * [Interactive Environment](#interactive-environment)
   * [Strategic Map](#strategic-map)
   * [Server Statistics](#server-statistics)
-  * [Combat Radio Cone](#combat-radio-cone)
   * [Scale](#scale)
 * [Characters](#characters)
   * [Creating a Character](#creating-a-character)
@@ -117,6 +117,10 @@ Just like in the real world, things in the game use other things to get work don
     * Corvette - Faster than the Dreadnought but a much reduced fuel tank.
     * Sentinel - Fastest and most efficient engines in the game but has the least amount of fuel storage.
 
+## Combat Radio Cone
+
+Due to the large amounts of data required for reliable communication with the drones they must operate in a relatively short range and in line of sight of the home ship or another ship on the same team.
+
 ## Key Locations
 
 The game will have one game area that is positioned in the broken reminisce of a larger asteroid.  The game area consists of floating asteroid particles lazily jostling about within their solar orbit while the massive fractured remains looms in the background.
@@ -155,10 +159,6 @@ A separate map mode that will allow the player to:
 When the player creates an account on the server, the server will start to collect information about the kill/death ratios of the ships piloted by that player and the total amount of game time for each ship.  This information will be made available in the players pause menu.
 
 In addition to the personal scores sheets, this data should be used to compile a server ranking list which can also be selected from the game's pause menu.
-
-## Combat Radio Cone
-
-Due to the large amounts of data required for reliable communication with the drones they must operate in a relatively short range and in line of sight of the home ship or another ship on the same team.
 
 ## Scale
 
