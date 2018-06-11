@@ -51,9 +51,9 @@ The following is a general overview of what a potential player can expect to fin
 
 # Game-Play
 
-* Players control a single drone ship, of three possible ship types, which they choose before they enter the war-zone.  The ships will be powered using chemical engines and will follow physical rules ([Asteroids](https://en.wikipedia.org/wiki/Asteroids_(video_game))) versus arcade rules ([Galaga](https://en.wikipedia.org/wiki/Galaga)).
+* Players control a single drone ship of three possible ship types, which they choose before they enter the war-zone.  The ships will be powered using chemical engines and will follow physical rules ([Asteroids](https://en.wikipedia.org/wiki/Asteroids_(video_game))) versus arcade rules ([Galaga](https://en.wikipedia.org/wiki/Galaga)).
 
-* Players earn credits by destroying opposing team ships who's payout is calculated by a minimum payment plus a bonus based on the player's rank.  NPC kills always payout the same pay, based on their AI tier.
+* Players earn credits by destroying opposing team ships whose payout is calculated by a minimum payment plus a bonus based on the player's rank.  NPC kills always payout the same pay, based on their AI tier.
 
 * Asteroid particles are interactive with ship weaponry, allowing the player to change their direction and/or break off additional pieces that can cause damage to other ships in the area.  Asteroid particles will "replenish" from the rest of the cloud periodically.
 
@@ -94,7 +94,7 @@ The game will offer three ships types for a player to choose from:
     * Electronic Surveillance and Jamming Equipment
         * This craft may only be optically detected
     * Fastest ship in the game
-* [Harvester](https://en.wikipedia.org/wiki/Factory_ship) - These specialized ships are responsible for collecting resources from the asteroid reminisce.
+* [Harvester](https://en.wikipedia.org/wiki/Factory_ship) - These specialized ships are responsible for collecting resources from the asteroid remnants.
     * Moderately armored
     * Autonomous Gatling Style, High RPM, Turreted Rail Guns
     * Same movement speed as a Corvette unloaded, movement like a Dreadnought when loaded
